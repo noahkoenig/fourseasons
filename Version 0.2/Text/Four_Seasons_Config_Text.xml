@@ -1,0 +1,20 @@
+<!-- =========================================================================== -->
+<!-- Four_Seasons_Config_Text -->
+<!-- Author: sharpNd -->
+<!-- 2022-05-20 -->
+<!-- Version 0.2 -->
+<!-- =========================================================================== -->
+
+
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<LocalizedText>
+		<!-- English -->
+		<Row Tag="LOC_FOUR_SEASONS_SEASON_LENGTH" Language="en_US">
+			<Text>Season Length</Text>
+		</Row>
+		<Row Tag="LOC_FOUR_SEASONS_SEASON_LENGTH_DESCRIPTION" Language="en_US">
+			<Text>Sets the length of a season in turns. 10 means that spring, summer, autumn and winter each last 10 turns making a cycle last 40 turns.</Text>
+		</Row>
+	</LocalizedText>
+</GameData>

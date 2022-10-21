@@ -1,0 +1,26 @@
+<!-- =========================================================================== -->
+<!-- Four_Seasons_Config_Text -->
+<!-- Author: sharpNd -->
+<!-- 2022-06-03 -->
+<!-- Version 0.4 -->
+<!-- =========================================================================== -->
+
+
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<LocalizedText>
+		<!-- English -->
+		<Row Tag="LOC_FOUR_SEASONS_SEASON_LENGTH" Language="en_US">
+			<Text>Season Length</Text>
+		</Row>
+		<Row Tag="LOC_FOUR_SEASONS_SEASON_LENGTH_DESCRIPTION" Language="en_US">
+			<Text>From the Four Seasons Mod.[NEWLINE][NEWLINE]Sets the Length of a Season in [ICON_Turn]Turns. Recommended by Game Speed:[NEWLINE][NEWLINE][ICON_Bullet]5 to 9 for Online[NEWLINE][ICON_Bullet]7 to 12 for Quick[NEWLINE][ICON_Bullet]10 to 16 for Standard[NEWLINE][ICON_Bullet]13 to 20 for Epic[NEWLINE][ICON_Bullet]15 to 25 for Marathon</Text>
+		</Row>
+		<Row Tag="LOC_FOUR_SEASONS_ANIMATE_TIME_OF_DAY" Language="en_US">
+			<Text>Time of Day based on Season</Text>
+		</Row>
+		<Row Tag="LOC_FOUR_SEASONS_ANIMATE_TIME_OF_DAY_DESCRIPTION" Language="en_US">
+			<Text>From the Four Seasons Mod.[NEWLINE][NEWLINE]If enabled, the mod changes the Animated Time of Day based on the current Season. Enabled is recommended to improve the immersion of the Season.[NEWLINE][NEWLINE]Once the game started, deactivate 'Animated Time of Day' in the options to make this work properly.</Text>
+		</Row>
+	</LocalizedText>
+</GameData>

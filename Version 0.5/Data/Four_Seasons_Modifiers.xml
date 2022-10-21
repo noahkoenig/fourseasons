@@ -1,0 +1,684 @@
+<!-- =========================================================================== -->
+<!-- Four_Seasons_Modifiers -->
+<!-- Author: sharpNd -->
+<!-- 2022-07-23 -->
+<!-- Version 0.5 -->
+<!-- =========================================================================== -->
+
+
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<GameInfo>
+	<Modifiers>
+		<!-- UNITS -->
+		<!-- experience -->
+		<Row ModifierId="FOUR_SEASONS_PLAYER_UNITS_ADJUST_UNIT_EXPERIENCE_BY_20" ModifierType="MODIFIER_PLAYER_UNITS_ADJUST_UNIT_EXPERIENCE_MODIFIER"/>
+		<Row ModifierId="FOUR_SEASONS_PLAYER_UNITS_ADJUST_UNIT_EXPERIENCE_BY_40" ModifierType="MODIFIER_PLAYER_UNITS_ADJUST_UNIT_EXPERIENCE_MODIFIER"/>
+		<Row ModifierId="FOUR_SEASONS_PLAYER_UNITS_ADJUST_UNIT_EXPERIENCE_BY_60" ModifierType="MODIFIER_PLAYER_UNITS_ADJUST_UNIT_EXPERIENCE_MODIFIER"/>
+		<Row ModifierId="FOUR_SEASONS_PLAYER_UNITS_ADJUST_UNIT_EXPERIENCE_BY_80" ModifierType="MODIFIER_PLAYER_UNITS_ADJUST_UNIT_EXPERIENCE_MODIFIER"/>
+		<Row ModifierId="FOUR_SEASONS_PLAYER_UNITS_ADJUST_UNIT_EXPERIENCE_BY_100" ModifierType="MODIFIER_PLAYER_UNITS_ADJUST_UNIT_EXPERIENCE_MODIFIER"/>
+		<Row ModifierId="FOUR_SEASONS_PLAYER_UNITS_ADJUST_UNIT_EXPERIENCE_BY_-20" ModifierType="MODIFIER_PLAYER_UNITS_ADJUST_UNIT_EXPERIENCE_MODIFIER"/>
+		<Row ModifierId="FOUR_SEASONS_PLAYER_UNITS_ADJUST_UNIT_EXPERIENCE_BY_-40" ModifierType="MODIFIER_PLAYER_UNITS_ADJUST_UNIT_EXPERIENCE_MODIFIER"/>
+		<Row ModifierId="FOUR_SEASONS_PLAYER_UNITS_ADJUST_UNIT_EXPERIENCE_BY_-60" ModifierType="MODIFIER_PLAYER_UNITS_ADJUST_UNIT_EXPERIENCE_MODIFIER"/>
+		<Row ModifierId="FOUR_SEASONS_PLAYER_UNITS_ADJUST_UNIT_EXPERIENCE_BY_-80" ModifierType="MODIFIER_PLAYER_UNITS_ADJUST_UNIT_EXPERIENCE_MODIFIER"/>
+		<Row ModifierId="FOUR_SEASONS_PLAYER_UNITS_ADJUST_UNIT_EXPERIENCE_BY_-100" ModifierType="MODIFIER_PLAYER_UNITS_ADJUST_UNIT_EXPERIENCE_MODIFIER"/>
+
+		<!-- healing -->
+		<Row ModifierId="FOUR_SEASONS_PLAYER_UNITS_ADJUST_HEAL_PER_TURN_BY_5" ModifierType="MODIFIER_PLAYER_UNITS_ADJUST_HEAL_PER_TURN"/>
+		<Row ModifierId="FOUR_SEASONS_PLAYER_UNITS_ADJUST_HEAL_PER_TURN_BY_10" ModifierType="MODIFIER_PLAYER_UNITS_ADJUST_HEAL_PER_TURN"/>
+		<Row ModifierId="FOUR_SEASONS_PLAYER_UNITS_ADJUST_HEAL_PER_TURN_BY_15" ModifierType="MODIFIER_PLAYER_UNITS_ADJUST_HEAL_PER_TURN"/>
+		<Row ModifierId="FOUR_SEASONS_PLAYER_UNITS_ADJUST_HEAL_PER_TURN_BY_-5" ModifierType="MODIFIER_PLAYER_UNITS_ADJUST_HEAL_PER_TURN"/>
+		<Row ModifierId="FOUR_SEASONS_PLAYER_UNITS_ADJUST_HEAL_PER_TURN_BY_-10" ModifierType="MODIFIER_PLAYER_UNITS_ADJUST_HEAL_PER_TURN"/>
+		<Row ModifierId="FOUR_SEASONS_PLAYER_UNITS_ADJUST_HEAL_PER_TURN_BY_-15" ModifierType="MODIFIER_PLAYER_UNITS_ADJUST_HEAL_PER_TURN"/>
+		
+		<!-- maintenance -->
+		<Row ModifierId="FOUR_SEASONS_PLAYER_ADJUST_UNIT_MAINTENANCE_DISCOUNT_BY_1" ModifierType="MODIFIER_PLAYER_ADJUST_UNIT_MAINTENANCE_DISCOUNT"/>
+		<Row ModifierId="FOUR_SEASONS_PLAYER_ADJUST_UNIT_MAINTENANCE_DISCOUNT_BY_2" ModifierType="MODIFIER_PLAYER_ADJUST_UNIT_MAINTENANCE_DISCOUNT"/>
+		<Row ModifierId="FOUR_SEASONS_PLAYER_ADJUST_UNIT_MAINTENANCE_DISCOUNT_BY_3" ModifierType="MODIFIER_PLAYER_ADJUST_UNIT_MAINTENANCE_DISCOUNT"/>
+		<Row ModifierId="FOUR_SEASONS_PLAYER_ADJUST_UNIT_MAINTENANCE_DISCOUNT_BY_4" ModifierType="MODIFIER_PLAYER_ADJUST_UNIT_MAINTENANCE_DISCOUNT"/>
+		<Row ModifierId="FOUR_SEASONS_PLAYER_ADJUST_UNIT_MAINTENANCE_DISCOUNT_BY_5" ModifierType="MODIFIER_PLAYER_ADJUST_UNIT_MAINTENANCE_DISCOUNT"/>
+		<Row ModifierId="FOUR_SEASONS_PLAYER_ADJUST_UNIT_MAINTENANCE_DISCOUNT_BY_-1" ModifierType="MODIFIER_PLAYER_ADJUST_UNIT_MAINTENANCE_DISCOUNT"/>
+		<Row ModifierId="FOUR_SEASONS_PLAYER_ADJUST_UNIT_MAINTENANCE_DISCOUNT_BY_-2" ModifierType="MODIFIER_PLAYER_ADJUST_UNIT_MAINTENANCE_DISCOUNT"/>
+		<Row ModifierId="FOUR_SEASONS_PLAYER_ADJUST_UNIT_MAINTENANCE_DISCOUNT_BY_-3" ModifierType="MODIFIER_PLAYER_ADJUST_UNIT_MAINTENANCE_DISCOUNT"/>
+		<Row ModifierId="FOUR_SEASONS_PLAYER_ADJUST_UNIT_MAINTENANCE_DISCOUNT_BY_-4" ModifierType="MODIFIER_PLAYER_ADJUST_UNIT_MAINTENANCE_DISCOUNT"/>
+		<Row ModifierId="FOUR_SEASONS_PLAYER_ADJUST_UNIT_MAINTENANCE_DISCOUNT_BY_-5" ModifierType="MODIFIER_PLAYER_ADJUST_UNIT_MAINTENANCE_DISCOUNT"/>
+
+		<!-- movement -->
+		<Row ModifierId="FOUR_SEASONS_PLAYER_UNITS_ADJUST_MOVEMENT_BY_1" ModifierType="MODIFIER_PLAYER_UNITS_ADJUST_MOVEMENT"/>
+		<Row ModifierId="FOUR_SEASONS_PLAYER_UNITS_ADJUST_MOVEMENT_BY_2" ModifierType="MODIFIER_PLAYER_UNITS_ADJUST_MOVEMENT"/>
+		<Row ModifierId="FOUR_SEASONS_PLAYER_UNITS_ADJUST_MOVEMENT_BY_-1" ModifierType="MODIFIER_PLAYER_UNITS_ADJUST_MOVEMENT"/>
+		<Row ModifierId="FOUR_SEASONS_PLAYER_UNITS_ADJUST_MOVEMENT_BY_-2" ModifierType="MODIFIER_PLAYER_UNITS_ADJUST_MOVEMENT"/>
+
+		<!-- sea movement -->
+		<Row ModifierId="FOUR_SEASONS_PLAYER_UNITS_ADJUST_SEA_MOVEMENT_BY_1" ModifierType="MODIFIER_PLAYER_UNITS_ADJUST_SEA_MOVEMENT"/>
+		<Row ModifierId="FOUR_SEASONS_PLAYER_UNITS_ADJUST_SEA_MOVEMENT_BY_2" ModifierType="MODIFIER_PLAYER_UNITS_ADJUST_SEA_MOVEMENT"/>
+		<Row ModifierId="FOUR_SEASONS_PLAYER_UNITS_ADJUST_SEA_MOVEMENT_BY_999" ModifierType="MODIFIER_PLAYER_UNITS_ADJUST_SEA_MOVEMENT"/>
+		<Row ModifierId="FOUR_SEASONS_PLAYER_UNITS_ADJUST_SEA_MOVEMENT_BY_-1" ModifierType="MODIFIER_PLAYER_UNITS_ADJUST_SEA_MOVEMENT"/>
+		<Row ModifierId="FOUR_SEASONS_PLAYER_UNITS_ADJUST_SEA_MOVEMENT_BY_-2" ModifierType="MODIFIER_PLAYER_UNITS_ADJUST_SEA_MOVEMENT"/>
+		<Row ModifierId="FOUR_SEASONS_PLAYER_UNITS_ADJUST_SEA_MOVEMENT_BY_-999" ModifierType="MODIFIER_PLAYER_UNITS_ADJUST_SEA_MOVEMENT"/>
+		
+		<!-- CITIES -->
+		<!-- food yields -->
+		<Row ModifierId="FOUR_SEASONS_CITY_PLOT_YIELDS_ADJUST_FOOD_YIELD_BY_1" ModifierType="MODIFIER_CITY_PLOT_YIELDS_ADJUST_PLOT_YIELD"/>
+		<Row ModifierId="FOUR_SEASONS_CITY_PLOT_YIELDS_ADJUST_FOOD_YIELD_BY_2" ModifierType="MODIFIER_CITY_PLOT_YIELDS_ADJUST_PLOT_YIELD"/>
+		<Row ModifierId="FOUR_SEASONS_CITY_PLOT_YIELDS_ADJUST_FOOD_YIELD_BY_3" ModifierType="MODIFIER_CITY_PLOT_YIELDS_ADJUST_PLOT_YIELD"/>
+		<Row ModifierId="FOUR_SEASONS_CITY_PLOT_YIELDS_ADJUST_FOOD_YIELD_BY_4" ModifierType="MODIFIER_CITY_PLOT_YIELDS_ADJUST_PLOT_YIELD"/>
+		<Row ModifierId="FOUR_SEASONS_CITY_PLOT_YIELDS_ADJUST_FOOD_YIELD_BY_-1" ModifierType="MODIFIER_CITY_PLOT_YIELDS_ADJUST_PLOT_YIELD"/>
+		<Row ModifierId="FOUR_SEASONS_CITY_PLOT_YIELDS_ADJUST_FOOD_YIELD_BY_-2" ModifierType="MODIFIER_CITY_PLOT_YIELDS_ADJUST_PLOT_YIELD"/>
+		<Row ModifierId="FOUR_SEASONS_CITY_PLOT_YIELDS_ADJUST_FOOD_YIELD_BY_-3" ModifierType="MODIFIER_CITY_PLOT_YIELDS_ADJUST_PLOT_YIELD"/>
+		<Row ModifierId="FOUR_SEASONS_CITY_PLOT_YIELDS_ADJUST_FOOD_YIELD_BY_-4" ModifierType="MODIFIER_CITY_PLOT_YIELDS_ADJUST_PLOT_YIELD"/>
+		
+		<!-- production yields -->
+		<Row ModifierId="FOUR_SEASONS_CITY_PLOT_YIELDS_ADJUST_PRODUCTION_YIELD_BY_1" ModifierType="MODIFIER_CITY_PLOT_YIELDS_ADJUST_PLOT_YIELD"/>
+		<Row ModifierId="FOUR_SEASONS_CITY_PLOT_YIELDS_ADJUST_PRODUCTION_YIELD_BY_2" ModifierType="MODIFIER_CITY_PLOT_YIELDS_ADJUST_PLOT_YIELD"/>
+		<Row ModifierId="FOUR_SEASONS_CITY_PLOT_YIELDS_ADJUST_PRODUCTION_YIELD_BY_-1" ModifierType="MODIFIER_CITY_PLOT_YIELDS_ADJUST_PLOT_YIELD"/>
+		<Row ModifierId="FOUR_SEASONS_CITY_PLOT_YIELDS_ADJUST_PRODUCTION_YIELD_BY_-2" ModifierType="MODIFIER_CITY_PLOT_YIELDS_ADJUST_PLOT_YIELD"/>
+		
+		<!-- WARS -->
+		<!-- war weariness -->
+		<Row ModifierId="FOUR_SEASONS_PLAYER_ADJUST_WAR_WEARINESS_BY_16" ModifierType="MODIFIER_PLAYER_ADJUST_WAR_WEARINESS"/>
+		<Row ModifierId="FOUR_SEASONS_PLAYER_ADJUST_WAR_WEARINESS_BY_32" ModifierType="MODIFIER_PLAYER_ADJUST_WAR_WEARINESS"/>
+		<Row ModifierId="FOUR_SEASONS_PLAYER_ADJUST_WAR_WEARINESS_BY_48" ModifierType="MODIFIER_PLAYER_ADJUST_WAR_WEARINESS"/>
+		<Row ModifierId="FOUR_SEASONS_PLAYER_ADJUST_WAR_WEARINESS_BY_64" ModifierType="MODIFIER_PLAYER_ADJUST_WAR_WEARINESS"/>
+		<Row ModifierId="FOUR_SEASONS_PLAYER_ADJUST_WAR_WEARINESS_BY_96" ModifierType="MODIFIER_PLAYER_ADJUST_WAR_WEARINESS"/>
+		<Row ModifierId="FOUR_SEASONS_PLAYER_ADJUST_WAR_WEARINESS_BY_144" ModifierType="MODIFIER_PLAYER_ADJUST_WAR_WEARINESS"/>
+		<Row ModifierId="FOUR_SEASONS_PLAYER_ADJUST_WAR_WEARINESS_BY_-16" ModifierType="MODIFIER_PLAYER_ADJUST_WAR_WEARINESS"/>
+		<Row ModifierId="FOUR_SEASONS_PLAYER_ADJUST_WAR_WEARINESS_BY_-32" ModifierType="MODIFIER_PLAYER_ADJUST_WAR_WEARINESS"/>
+		<Row ModifierId="FOUR_SEASONS_PLAYER_ADJUST_WAR_WEARINESS_BY_-48" ModifierType="MODIFIER_PLAYER_ADJUST_WAR_WEARINESS"/>
+		<Row ModifierId="FOUR_SEASONS_PLAYER_ADJUST_WAR_WEARINESS_BY_-64" ModifierType="MODIFIER_PLAYER_ADJUST_WAR_WEARINESS"/>
+		<Row ModifierId="FOUR_SEASONS_PLAYER_ADJUST_WAR_WEARINESS_BY_-96" ModifierType="MODIFIER_PLAYER_ADJUST_WAR_WEARINESS"/>
+		<Row ModifierId="FOUR_SEASONS_PLAYER_ADJUST_WAR_WEARINESS_BY_-144" ModifierType="MODIFIER_PLAYER_ADJUST_WAR_WEARINESS"/>
+	</Modifiers>
+	
+	<ModifierArguments>
+		<!-- UNITS -->
+		<!-- experience -->
+		<Row>
+			<ModifierId>FOUR_SEASONS_PLAYER_UNITS_ADJUST_UNIT_EXPERIENCE_BY_20</ModifierId>
+			<Name>Amount</Name>
+			<Value>20</Value>
+		</Row>
+		<Row>
+			<ModifierId>FOUR_SEASONS_PLAYER_UNITS_ADJUST_UNIT_EXPERIENCE_BY_40</ModifierId>
+			<Name>Amount</Name>
+			<Value>40</Value>
+		</Row>
+		<Row>
+			<ModifierId>FOUR_SEASONS_PLAYER_UNITS_ADJUST_UNIT_EXPERIENCE_BY_60</ModifierId>
+			<Name>Amount</Name>
+			<Value>60</Value>
+		</Row>
+		<Row>
+			<ModifierId>FOUR_SEASONS_PLAYER_UNITS_ADJUST_UNIT_EXPERIENCE_BY_80</ModifierId>
+			<Name>Amount</Name>
+			<Value>80</Value>
+		</Row>
+		<Row>
+			<ModifierId>FOUR_SEASONS_PLAYER_UNITS_ADJUST_UNIT_EXPERIENCE_BY_100</ModifierId>
+			<Name>Amount</Name>
+			<Value>100</Value>
+		</Row>
+		<Row>
+			<ModifierId>FOUR_SEASONS_PLAYER_UNITS_ADJUST_UNIT_EXPERIENCE_BY_-20</ModifierId>
+			<Name>Amount</Name>
+			<Value>-20</Value>
+		</Row>
+		<Row>
+			<ModifierId>FOUR_SEASONS_PLAYER_UNITS_ADJUST_UNIT_EXPERIENCE_BY_-40</ModifierId>
+			<Name>Amount</Name>
+			<Value>-40</Value>
+		</Row>
+		<Row>
+			<ModifierId>FOUR_SEASONS_PLAYER_UNITS_ADJUST_UNIT_EXPERIENCE_BY_-60</ModifierId>
+			<Name>Amount</Name>
+			<Value>-60</Value>
+		</Row>
+		<Row>
+			<ModifierId>FOUR_SEASONS_PLAYER_UNITS_ADJUST_UNIT_EXPERIENCE_BY_-80</ModifierId>
+			<Name>Amount</Name>
+			<Value>-80</Value>
+		</Row>
+		<Row>
+			<ModifierId>FOUR_SEASONS_PLAYER_UNITS_ADJUST_UNIT_EXPERIENCE_BY_-100</ModifierId>
+			<Name>Amount</Name>
+			<Value>-100</Value>
+		</Row>
+
+		<!-- healing -->
+		<Row>
+			<ModifierId>FOUR_SEASONS_PLAYER_UNITS_ADJUST_HEAL_PER_TURN_BY_5</ModifierId>
+			<Name>Amount</Name>
+			<Value>5</Value>
+		</Row>
+		<Row>
+			<ModifierId>FOUR_SEASONS_PLAYER_UNITS_ADJUST_HEAL_PER_TURN_BY_5</ModifierId>
+			<Name>Type</Name>
+			<Value>ALL</Value>
+		</Row>
+		<Row>
+			<ModifierId>FOUR_SEASONS_PLAYER_UNITS_ADJUST_HEAL_PER_TURN_BY_10</ModifierId>
+			<Name>Amount</Name>
+			<Value>10</Value>
+		</Row>
+		<Row>
+			<ModifierId>FOUR_SEASONS_PLAYER_UNITS_ADJUST_HEAL_PER_TURN_BY_10</ModifierId>
+			<Name>Type</Name>
+			<Value>ALL</Value>
+		</Row>
+		<Row>
+			<ModifierId>FOUR_SEASONS_PLAYER_UNITS_ADJUST_HEAL_PER_TURN_BY_15</ModifierId>
+			<Name>Amount</Name>
+			<Value>15</Value>
+		</Row>
+		<Row>
+			<ModifierId>FOUR_SEASONS_PLAYER_UNITS_ADJUST_HEAL_PER_TURN_BY_15</ModifierId>
+			<Name>Type</Name>
+			<Value>ALL</Value>
+		</Row>
+		<Row>
+			<ModifierId>FOUR_SEASONS_PLAYER_UNITS_ADJUST_HEAL_PER_TURN_BY_-5</ModifierId>
+			<Name>Amount</Name>
+			<Value>-5</Value>
+		</Row>
+		<Row>
+			<ModifierId>FOUR_SEASONS_PLAYER_UNITS_ADJUST_HEAL_PER_TURN_BY_-5</ModifierId>
+			<Name>Type</Name>
+			<Value>ALL</Value>
+		</Row>
+		<Row>
+			<ModifierId>FOUR_SEASONS_PLAYER_UNITS_ADJUST_HEAL_PER_TURN_BY_-10</ModifierId>
+			<Name>Amount</Name>
+			<Value>-10</Value>
+		</Row>
+		<Row>
+			<ModifierId>FOUR_SEASONS_PLAYER_UNITS_ADJUST_HEAL_PER_TURN_BY_-10</ModifierId>
+			<Name>Type</Name>
+			<Value>ALL</Value>
+		</Row>
+		<Row>
+			<ModifierId>FOUR_SEASONS_PLAYER_UNITS_ADJUST_HEAL_PER_TURN_BY_-15</ModifierId>
+			<Name>Amount</Name>
+			<Value>-15</Value>
+		</Row>
+		<Row>
+			<ModifierId>FOUR_SEASONS_PLAYER_UNITS_ADJUST_HEAL_PER_TURN_BY_-15</ModifierId>
+			<Name>Type</Name>
+			<Value>ALL</Value>
+		</Row>
+
+		<!-- maintenance -->
+		<Row>
+			<ModifierId>FOUR_SEASONS_PLAYER_ADJUST_UNIT_MAINTENANCE_DISCOUNT_BY_1</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
+		<Row>
+			<ModifierId>FOUR_SEASONS_PLAYER_ADJUST_UNIT_MAINTENANCE_DISCOUNT_BY_2</ModifierId>
+			<Name>Amount</Name>
+			<Value>2</Value>
+		</Row>
+		<Row>
+			<ModifierId>FOUR_SEASONS_PLAYER_ADJUST_UNIT_MAINTENANCE_DISCOUNT_BY_3</ModifierId>
+			<Name>Amount</Name>
+			<Value>3</Value>
+		</Row>
+		<Row>
+			<ModifierId>FOUR_SEASONS_PLAYER_ADJUST_UNIT_MAINTENANCE_DISCOUNT_BY_4</ModifierId>
+			<Name>Amount</Name>
+			<Value>4</Value>
+		</Row>
+		<Row>
+			<ModifierId>FOUR_SEASONS_PLAYER_ADJUST_UNIT_MAINTENANCE_DISCOUNT_BY_5</ModifierId>
+			<Name>Amount</Name>
+			<Value>5</Value>
+		</Row>
+		<Row>
+			<ModifierId>FOUR_SEASONS_PLAYER_ADJUST_UNIT_MAINTENANCE_DISCOUNT_BY_-1</ModifierId>
+			<Name>Amount</Name>
+			<Value>-1</Value>
+		</Row>
+		<Row>
+			<ModifierId>FOUR_SEASONS_PLAYER_ADJUST_UNIT_MAINTENANCE_DISCOUNT_BY_-2</ModifierId>
+			<Name>Amount</Name>
+			<Value>-2</Value>
+		</Row>
+		<Row>
+			<ModifierId>FOUR_SEASONS_PLAYER_ADJUST_UNIT_MAINTENANCE_DISCOUNT_BY_-3</ModifierId>
+			<Name>Amount</Name>
+			<Value>-3</Value>
+		</Row>
+		<Row>
+			<ModifierId>FOUR_SEASONS_PLAYER_ADJUST_UNIT_MAINTENANCE_DISCOUNT_BY_-4</ModifierId>
+			<Name>Amount</Name>
+			<Value>-4</Value>
+		</Row>
+		<Row>
+			<ModifierId>FOUR_SEASONS_PLAYER_ADJUST_UNIT_MAINTENANCE_DISCOUNT_BY_-5</ModifierId>
+			<Name>Amount</Name>
+			<Value>-5</Value>
+		</Row>
+
+		<!-- movement -->
+		<Row>
+			<ModifierId>FOUR_SEASONS_PLAYER_UNITS_ADJUST_MOVEMENT_BY_1</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
+		<Row>
+			<ModifierId>FOUR_SEASONS_PLAYER_UNITS_ADJUST_MOVEMENT_BY_2</ModifierId>
+			<Name>Amount</Name>
+			<Value>2</Value>
+		</Row>
+		<Row>
+			<ModifierId>FOUR_SEASONS_PLAYER_UNITS_ADJUST_MOVEMENT_BY_-1</ModifierId>
+			<Name>Amount</Name>
+			<Value>-1</Value>
+		</Row>
+		<Row>
+			<ModifierId>FOUR_SEASONS_PLAYER_UNITS_ADJUST_MOVEMENT_BY_-2</ModifierId>
+			<Name>Amount</Name>
+			<Value>-2</Value>
+		</Row>
+
+		<!-- sea movement -->
+		<Row>
+			<ModifierId>FOUR_SEASONS_PLAYER_UNITS_ADJUST_SEA_MOVEMENT_BY_1</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
+		<Row>
+			<ModifierId>FOUR_SEASONS_PLAYER_UNITS_ADJUST_SEA_MOVEMENT_BY_2</ModifierId>
+			<Name>Amount</Name>
+			<Value>2</Value>
+		</Row>
+		<Row>
+			<ModifierId>FOUR_SEASONS_PLAYER_UNITS_ADJUST_SEA_MOVEMENT_BY_999</ModifierId>
+			<Name>Amount</Name>
+			<Value>999</Value>
+		</Row>
+		<Row>
+			<ModifierId>FOUR_SEASONS_PLAYER_UNITS_ADJUST_SEA_MOVEMENT_BY_-1</ModifierId>
+			<Name>Amount</Name>
+			<Value>-1</Value>
+		</Row>
+		<Row>
+			<ModifierId>FOUR_SEASONS_PLAYER_UNITS_ADJUST_SEA_MOVEMENT_BY_-2</ModifierId>
+			<Name>Amount</Name>
+			<Value>-2</Value>
+		</Row>
+		<Row>
+			<ModifierId>FOUR_SEASONS_PLAYER_UNITS_ADJUST_SEA_MOVEMENT_BY_-999</ModifierId>
+			<Name>Amount</Name>
+			<Value>-999</Value>
+		</Row>
+
+		<!-- CITIES -->
+		<!-- food yield -->
+		<Row>
+			<ModifierId>FOUR_SEASONS_CITY_PLOT_YIELDS_ADJUST_FOOD_YIELD_BY_1</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
+		<Row>
+			<ModifierId>FOUR_SEASONS_CITY_PLOT_YIELDS_ADJUST_FOOD_YIELD_BY_1</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_FOOD</Value>
+		</Row>
+		<Row>
+			<ModifierId>FOUR_SEASONS_CITY_PLOT_YIELDS_ADJUST_FOOD_YIELD_BY_2</ModifierId>
+			<Name>Amount</Name>
+			<Value>2</Value>
+		</Row>
+		<Row>
+			<ModifierId>FOUR_SEASONS_CITY_PLOT_YIELDS_ADJUST_FOOD_YIELD_BY_2</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_FOOD</Value>
+		</Row>
+		<Row>
+			<ModifierId>FOUR_SEASONS_CITY_PLOT_YIELDS_ADJUST_FOOD_YIELD_BY_3</ModifierId>
+			<Name>Amount</Name>
+			<Value>3</Value>
+		</Row>
+		<Row>
+			<ModifierId>FOUR_SEASONS_CITY_PLOT_YIELDS_ADJUST_FOOD_YIELD_BY_3</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_FOOD</Value>
+		</Row>
+		<Row>
+			<ModifierId>FOUR_SEASONS_CITY_PLOT_YIELDS_ADJUST_FOOD_YIELD_BY_4</ModifierId>
+			<Name>Amount</Name>
+			<Value>4</Value>
+		</Row>
+		<Row>
+			<ModifierId>FOUR_SEASONS_CITY_PLOT_YIELDS_ADJUST_FOOD_YIELD_BY_4</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_FOOD</Value>
+		</Row>
+		<Row>
+			<ModifierId>FOUR_SEASONS_CITY_PLOT_YIELDS_ADJUST_FOOD_YIELD_BY_-1</ModifierId>
+			<Name>Amount</Name>
+			<Value>-1</Value>
+		</Row>
+		<Row>
+			<ModifierId>FOUR_SEASONS_CITY_PLOT_YIELDS_ADJUST_FOOD_YIELD_BY_-1</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_FOOD</Value>
+		</Row>
+		<Row>
+			<ModifierId>FOUR_SEASONS_CITY_PLOT_YIELDS_ADJUST_FOOD_YIELD_BY_-2</ModifierId>
+			<Name>Amount</Name>
+			<Value>-2</Value>
+		</Row>
+		<Row>
+			<ModifierId>FOUR_SEASONS_CITY_PLOT_YIELDS_ADJUST_FOOD_YIELD_BY_-2</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_FOOD</Value>
+		</Row>
+		<Row>
+			<ModifierId>FOUR_SEASONS_CITY_PLOT_YIELDS_ADJUST_FOOD_YIELD_BY_-3</ModifierId>
+			<Name>Amount</Name>
+			<Value>-3</Value>
+		</Row>
+		<Row>
+			<ModifierId>FOUR_SEASONS_CITY_PLOT_YIELDS_ADJUST_FOOD_YIELD_BY_-3</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_FOOD</Value>
+		</Row>
+		<Row>
+			<ModifierId>FOUR_SEASONS_CITY_PLOT_YIELDS_ADJUST_FOOD_YIELD_BY_-4</ModifierId>
+			<Name>Amount</Name>
+			<Value>-4</Value>
+		</Row>
+		<Row>
+			<ModifierId>FOUR_SEASONS_CITY_PLOT_YIELDS_ADJUST_FOOD_YIELD_BY_-4</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_FOOD</Value>
+		</Row>
+		
+		<!-- production yield -->
+		<Row>
+			<ModifierId>FOUR_SEASONS_CITY_PLOT_YIELDS_ADJUST_PRODUCTION_YIELD_BY_1</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
+		<Row>
+			<ModifierId>FOUR_SEASONS_CITY_PLOT_YIELDS_ADJUST_PRODUCTION_YIELD_BY_1</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_PRODUCTION</Value>
+		</Row>
+		<Row>
+			<ModifierId>FOUR_SEASONS_CITY_PLOT_YIELDS_ADJUST_PRODUCTION_YIELD_BY_2</ModifierId>
+			<Name>Amount</Name>
+			<Value>2</Value>
+		</Row>
+		<Row>
+			<ModifierId>FOUR_SEASONS_CITY_PLOT_YIELDS_ADJUST_PRODUCTION_YIELD_BY_2</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_PRODUCTION</Value>
+		</Row>
+		<Row>
+			<ModifierId>FOUR_SEASONS_CITY_PLOT_YIELDS_ADJUST_PRODUCTION_YIELD_BY_-1</ModifierId>
+			<Name>Amount</Name>
+			<Value>-1</Value>
+		</Row>
+		<Row>
+			<ModifierId>FOUR_SEASONS_CITY_PLOT_YIELDS_ADJUST_PRODUCTION_YIELD_BY_-1</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_PRODUCTION</Value>
+		</Row>
+		<Row>
+			<ModifierId>FOUR_SEASONS_CITY_PLOT_YIELDS_ADJUST_PRODUCTION_YIELD_BY_-2</ModifierId>
+			<Name>Amount</Name>
+			<Value>-2</Value>
+		</Row>
+		<Row>
+			<ModifierId>FOUR_SEASONS_CITY_PLOT_YIELDS_ADJUST_PRODUCTION_YIELD_BY_-2</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_PRODUCTION</Value>
+		</Row>
+		
+		<!-- WARS -->
+		<!-- war weariness -->
+		<Row>
+			<ModifierId>FOUR_SEASONS_PLAYER_ADJUST_WAR_WEARINESS_BY_16</ModifierId>
+			<Name>Amount</Name>
+			<Value>16</Value>
+		</Row>
+		<Row>
+			<ModifierId>FOUR_SEASONS_PLAYER_ADJUST_WAR_WEARINESS_BY_16</ModifierId>
+			<Name>Domestic</Name>
+			<Value>True</Value>
+		</Row>
+		<Row>
+			<ModifierId>FOUR_SEASONS_PLAYER_ADJUST_WAR_WEARINESS_BY_16</ModifierId>
+			<Name>Enemy</Name>
+			<Value>True</Value>
+		</Row>
+		<Row>
+			<ModifierId>FOUR_SEASONS_PLAYER_ADJUST_WAR_WEARINESS_BY_16</ModifierId>
+			<Name>Overall</Name>
+			<Value>True</Value>
+		</Row>
+		<Row>
+			<ModifierId>FOUR_SEASONS_PLAYER_ADJUST_WAR_WEARINESS_BY_32</ModifierId>
+			<Name>Amount</Name>
+			<Value>32</Value>
+		</Row>
+		<Row>
+			<ModifierId>FOUR_SEASONS_PLAYER_ADJUST_WAR_WEARINESS_BY_32</ModifierId>
+			<Name>Domestic</Name>
+			<Value>True</Value>
+		</Row>
+		<Row>
+			<ModifierId>FOUR_SEASONS_PLAYER_ADJUST_WAR_WEARINESS_BY_32</ModifierId>
+			<Name>Enemy</Name>
+			<Value>True</Value>
+		</Row>
+		<Row>
+			<ModifierId>FOUR_SEASONS_PLAYER_ADJUST_WAR_WEARINESS_BY_32</ModifierId>
+			<Name>Overall</Name>
+			<Value>True</Value>
+		</Row>
+		<Row>
+			<ModifierId>FOUR_SEASONS_PLAYER_ADJUST_WAR_WEARINESS_BY_48</ModifierId>
+			<Name>Amount</Name>
+			<Value>48</Value>
+		</Row>
+		<Row>
+			<ModifierId>FOUR_SEASONS_PLAYER_ADJUST_WAR_WEARINESS_BY_48</ModifierId>
+			<Name>Domestic</Name>
+			<Value>True</Value>
+		</Row>
+		<Row>
+			<ModifierId>FOUR_SEASONS_PLAYER_ADJUST_WAR_WEARINESS_BY_48</ModifierId>
+			<Name>Enemy</Name>
+			<Value>True</Value>
+		</Row>
+		<Row>
+			<ModifierId>FOUR_SEASONS_PLAYER_ADJUST_WAR_WEARINESS_BY_48</ModifierId>
+			<Name>Overall</Name>
+			<Value>True</Value>
+		</Row>
+		<Row>
+			<ModifierId>FOUR_SEASONS_PLAYER_ADJUST_WAR_WEARINESS_BY_64</ModifierId>
+			<Name>Amount</Name>
+			<Value>64</Value>
+		</Row>
+		<Row>
+			<ModifierId>FOUR_SEASONS_PLAYER_ADJUST_WAR_WEARINESS_BY_64</ModifierId>
+			<Name>Domestic</Name>
+			<Value>True</Value>
+		</Row>
+		<Row>
+			<ModifierId>FOUR_SEASONS_PLAYER_ADJUST_WAR_WEARINESS_BY_64</ModifierId>
+			<Name>Enemy</Name>
+			<Value>True</Value>
+		</Row>
+		<Row>
+			<ModifierId>FOUR_SEASONS_PLAYER_ADJUST_WAR_WEARINESS_BY_64</ModifierId>
+			<Name>Overall</Name>
+			<Value>True</Value>
+		</Row>
+		<Row>
+			<ModifierId>FOUR_SEASONS_PLAYER_ADJUST_WAR_WEARINESS_BY_96</ModifierId>
+			<Name>Amount</Name>
+			<Value>96</Value>
+		</Row>
+		<Row>
+			<ModifierId>FOUR_SEASONS_PLAYER_ADJUST_WAR_WEARINESS_BY_96</ModifierId>
+			<Name>Domestic</Name>
+			<Value>True</Value>
+		</Row>
+		<Row>
+			<ModifierId>FOUR_SEASONS_PLAYER_ADJUST_WAR_WEARINESS_BY_96</ModifierId>
+			<Name>Enemy</Name>
+			<Value>True</Value>
+		</Row>
+		<Row>
+			<ModifierId>FOUR_SEASONS_PLAYER_ADJUST_WAR_WEARINESS_BY_96</ModifierId>
+			<Name>Overall</Name>
+			<Value>True</Value>
+		</Row>
+		<Row>
+			<ModifierId>FOUR_SEASONS_PLAYER_ADJUST_WAR_WEARINESS_BY_144</ModifierId>
+			<Name>Amount</Name>
+			<Value>144</Value>
+		</Row>
+		<Row>
+			<ModifierId>FOUR_SEASONS_PLAYER_ADJUST_WAR_WEARINESS_BY_144</ModifierId>
+			<Name>Domestic</Name>
+			<Value>True</Value>
+		</Row>
+		<Row>
+			<ModifierId>FOUR_SEASONS_PLAYER_ADJUST_WAR_WEARINESS_BY_144</ModifierId>
+			<Name>Enemy</Name>
+			<Value>True</Value>
+		</Row>
+		<Row>
+			<ModifierId>FOUR_SEASONS_PLAYER_ADJUST_WAR_WEARINESS_BY_144</ModifierId>
+			<Name>Overall</Name>
+			<Value>True</Value>
+		</Row>
+
+		<Row>
+			<ModifierId>FOUR_SEASONS_PLAYER_ADJUST_WAR_WEARINESS_BY_-16</ModifierId>
+			<Name>Amount</Name>
+			<Value>-16</Value>
+		</Row>
+		<Row>
+			<ModifierId>FOUR_SEASONS_PLAYER_ADJUST_WAR_WEARINESS_BY_-16</ModifierId>
+			<Name>Domestic</Name>
+			<Value>True</Value>
+		</Row>
+		<Row>
+			<ModifierId>FOUR_SEASONS_PLAYER_ADJUST_WAR_WEARINESS_BY_-16</ModifierId>
+			<Name>Enemy</Name>
+			<Value>True</Value>
+		</Row>
+		<Row>
+			<ModifierId>FOUR_SEASONS_PLAYER_ADJUST_WAR_WEARINESS_BY_-16</ModifierId>
+			<Name>Overall</Name>
+			<Value>True</Value>
+		</Row>
+		<Row>
+			<ModifierId>FOUR_SEASONS_PLAYER_ADJUST_WAR_WEARINESS_BY_-32</ModifierId>
+			<Name>Amount</Name>
+			<Value>-32</Value>
+		</Row>
+		<Row>
+			<ModifierId>FOUR_SEASONS_PLAYER_ADJUST_WAR_WEARINESS_BY_-32</ModifierId>
+			<Name>Domestic</Name>
+			<Value>True</Value>
+		</Row>
+		<Row>
+			<ModifierId>FOUR_SEASONS_PLAYER_ADJUST_WAR_WEARINESS_BY_-32</ModifierId>
+			<Name>Enemy</Name>
+			<Value>True</Value>
+		</Row>
+		<Row>
+			<ModifierId>FOUR_SEASONS_PLAYER_ADJUST_WAR_WEARINESS_BY_-32</ModifierId>
+			<Name>Overall</Name>
+			<Value>True</Value>
+		</Row>
+		<Row>
+			<ModifierId>FOUR_SEASONS_PLAYER_ADJUST_WAR_WEARINESS_BY_-48</ModifierId>
+			<Name>Amount</Name>
+			<Value>-48</Value>
+		</Row>
+		<Row>
+			<ModifierId>FOUR_SEASONS_PLAYER_ADJUST_WAR_WEARINESS_BY_-48</ModifierId>
+			<Name>Domestic</Name>
+			<Value>True</Value>
+		</Row>
+		<Row>
+			<ModifierId>FOUR_SEASONS_PLAYER_ADJUST_WAR_WEARINESS_BY_-48</ModifierId>
+			<Name>Enemy</Name>
+			<Value>True</Value>
+		</Row>
+		<Row>
+			<ModifierId>FOUR_SEASONS_PLAYER_ADJUST_WAR_WEARINESS_BY_-48</ModifierId>
+			<Name>Overall</Name>
+			<Value>True</Value>
+		</Row>
+		<Row>
+			<ModifierId>FOUR_SEASONS_PLAYER_ADJUST_WAR_WEARINESS_BY_-64</ModifierId>
+			<Name>Amount</Name>
+			<Value>-64</Value>
+		</Row>
+		<Row>
+			<ModifierId>FOUR_SEASONS_PLAYER_ADJUST_WAR_WEARINESS_BY_-64</ModifierId>
+			<Name>Domestic</Name>
+			<Value>True</Value>
+		</Row>
+		<Row>
+			<ModifierId>FOUR_SEASONS_PLAYER_ADJUST_WAR_WEARINESS_BY_-64</ModifierId>
+			<Name>Enemy</Name>
+			<Value>True</Value>
+		</Row>
+		<Row>
+			<ModifierId>FOUR_SEASONS_PLAYER_ADJUST_WAR_WEARINESS_BY_-64</ModifierId>
+			<Name>Overall</Name>
+			<Value>True</Value>
+		</Row>
+		<Row>
+			<ModifierId>FOUR_SEASONS_PLAYER_ADJUST_WAR_WEARINESS_BY_-96</ModifierId>
+			<Name>Amount</Name>
+			<Value>-96</Value>
+		</Row>
+		<Row>
+			<ModifierId>FOUR_SEASONS_PLAYER_ADJUST_WAR_WEARINESS_BY_-96</ModifierId>
+			<Name>Domestic</Name>
+			<Value>True</Value>
+		</Row>
+		<Row>
+			<ModifierId>FOUR_SEASONS_PLAYER_ADJUST_WAR_WEARINESS_BY_-96</ModifierId>
+			<Name>Enemy</Name>
+			<Value>True</Value>
+		</Row>
+		<Row>
+			<ModifierId>FOUR_SEASONS_PLAYER_ADJUST_WAR_WEARINESS_BY_-96</ModifierId>
+			<Name>Overall</Name>
+			<Value>True</Value>
+		</Row>
+		<Row>
+			<ModifierId>FOUR_SEASONS_PLAYER_ADJUST_WAR_WEARINESS_BY_-144</ModifierId>
+			<Name>Amount</Name>
+			<Value>-144</Value>
+		</Row>
+		<Row>
+			<ModifierId>FOUR_SEASONS_PLAYER_ADJUST_WAR_WEARINESS_BY_-144</ModifierId>
+			<Name>Domestic</Name>
+			<Value>True</Value>
+		</Row>
+		<Row>
+			<ModifierId>FOUR_SEASONS_PLAYER_ADJUST_WAR_WEARINESS_BY_-144</ModifierId>
+			<Name>Enemy</Name>
+			<Value>True</Value>
+		</Row>
+		<Row>
+			<ModifierId>FOUR_SEASONS_PLAYER_ADJUST_WAR_WEARINESS_BY_-144</ModifierId>
+			<Name>Overall</Name>
+			<Value>True</Value>
+		</Row>
+	</ModifierArguments>
+	
+</GameInfo>

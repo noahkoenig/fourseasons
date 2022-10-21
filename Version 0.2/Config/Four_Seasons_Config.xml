@@ -1,0 +1,18 @@
+<!-- =========================================================================== -->
+<!-- Four_Seasons_Config -->
+<!-- Author: sharpNd -->
+<!-- 2022-05-20 -->
+<!-- Version 0.2 -->
+<!-- =========================================================================== -->
+
+
+<?xml version="1.0" encoding="utf-8"?>
+<GameInfo>
+	<Parameters>
+		<Replace ParameterId="iSeasonLength" Name="LOC_FOUR_SEASONS_SEASON_LENGTH" Description="LOC_FOUR_SEASONS_SEASON_LENGTH_DESCRIPTION" Domain="iSeasonLength" DefaultValue="10" ConfigurationGroup="Game" ConfigurationId="iSeasonLength" GroupId="GameOptions" SortIndex="45"/>
+	</Parameters>
+	<DomainRanges>
+		<!-- Don't set MinimumValue to below 3 or you will encounter issues -->
+		<Replace Domain="iSeasonLength" MinimumValue="5" MaximumValue="25"/>
+	</DomainRanges>
+</GameInfo>

@@ -1,0 +1,78 @@
+<!-- =========================================================================== -->
+<!-- Four_Seasons_UI_Text -->
+<!-- Author: sharpNd -->
+<!-- 2022-05-20 -->
+<!-- Version 0.2 -->
+<!-- =========================================================================== -->
+
+
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+    <LocalizedText>
+        <!-- English -->
+        <Row Tag="LOC_FOUR_SEASONS_SUMMER_TEXT" Language="en_US">
+            <Text>Summer</Text>
+        </Row>
+        <Row Tag="LOC_FOUR_SEASONS_AUTUMN_TEXT" Language="en_US">
+            <Text>Autumn</Text>
+        </Row>
+        <Row Tag="LOC_FOUR_SEASONS_WINTER_TEXT" Language="en_US">
+            <Text>Winter</Text>
+        </Row>
+        <Row Tag="LOC_FOUR_SEASONS_SPRING_TEXT" Language="en_US">
+            <Text>Spring</Text>
+        </Row>
+        <Row Tag="LOC_FOUR_SEASONS_SEVERITY_TEXT" Language="en_US">
+            <Text>Severity</Text>
+        </Row>
+        <Row Tag="LOC_FOUR_SEASONS_NO_EFFECTS_TEXT" Language="en_US">
+            <Text>No Effects</Text>
+        </Row>
+        <Row Tag="LOC_FOUR_SEASONS_EFFECTS_HEADING_TEXT" Language="en_US">
+            <Text>Current Effects:</Text>
+        </Row>
+        <Row Tag="LOC_FOUR_SEASONS_UNITS_TEXT" Language="en_US">
+            <Text>Units</Text>
+        </Row>
+        <Row Tag="LOC_FOUR_SEASONS_CITIES_TEXT" Language="en_US">
+            <Text>Cities</Text>
+        </Row>
+        <Row Tag="LOC_FOUR_SEASONS_WARS_TEXT" Language="en_US">
+            <Text>Wars</Text>
+        </Row>
+        <Row Tag="LOC_FOUR_SEASONS_START_TEXT" Language="en_US">
+            <Text>Welcome to Four Seasons! End first [ICON_Turn] Turn for script to start</Text>
+        </Row>
+        <!-- Turn (int values) will be put between NEW_SEASON_INFO_1 / 2 and after NEW_SEASON_INFO_2 -->
+        <Row Tag="LOC_FOUR_SEASONS_NEW_SEASON_INFO_1_TEXT" Language="en_US">
+            <Text>will start between [ICON_Turn] Turn</Text>
+        </Row>
+        <Row Tag="LOC_FOUR_SEASONS_NEW_SEASON_INFO_2_TEXT" Language="en_US">
+            <Text>and</Text>
+        </Row>
+        <Row Tag="LOC_FOUR_SEASONS_EXPERIENCE_TEXT" Language="en_US">
+            <Text>[ICON_Promotion] Experience</Text>
+        </Row>
+        <Row Tag="LOC_FOUR_SEASONS_HEALING_TEXT" Language="en_US">
+            <Text>[ICON_Damaged] Healing per [ICON_Turn] Turn</Text>
+        </Row>
+        <Row Tag="LOC_FOUR_SEASONS_MAINTENANCE_TEXT" Language="en_US">
+            <Text>[ICON_Gold] Maintenance</Text>
+        </Row>
+        <Row Tag="LOC_FOUR_SEASONS_MOVEMENT_TEXT" Language="en_US">
+            <Text>[ICON_Movement] Movement for Land Units and Aircraft</Text>
+        </Row>
+        <Row Tag="LOC_FOUR_SEASONS_SEA_MOVEMENT_TEXT" Language="en_US">
+            <Text>[ICON_Movement] Movement for Naval Units</Text>
+        </Row>
+        <Row Tag="LOC_FOUR_SEASONS_FOOD_TEXT" Language="en_US">
+            <Text>[ICON_Food] Food per Tile</Text>
+        </Row>
+        <Row Tag="LOC_FOUR_SEASONS_PRODUCTION_TEXT" Language="en_US">
+            <Text>[ICON_Production] Production per Tile</Text>
+        </Row>
+        <Row Tag="LOC_FOUR_SEASONS_WEARINESS_TEXT" Language="en_US">
+            <Text>[ICON_Ability] War Weariness per Combat</Text>
+        </Row>
+    </LocalizedText>
+</GameData>

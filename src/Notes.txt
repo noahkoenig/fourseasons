@@ -1,0 +1,135 @@
+TODO
+- All Units have at least 1 movement left, independent from movement change
+	we could flag the units that had their movement increase so that they are not 0 with SetPropety. that seems to working for all objects, not just the Game object
+- Option for era based changes? The higher the era, the higher the negative effects
+- Add new effect: Amenities
+- Add food storage feature? you can store away food during spring / summer / autumn to prepare for coming winters
+- Effect on Gathering Storm natural disasters? This seems impossible to do. you can adjust the overal disaster intensity but not the probabilities of individual natural disasters
+  1 blizzards
+  2 droughts
+  3 dust storms
+  4 floods
+  5 forest fires
+  6 hurricanes
+  7 tornadoes
+
+
+KNOWN ISSUES
+- Plot yields are sometimes not shown in City Details view after they were changed
+- Unit healing fortification is sometimes interrupted when the healing rate is reduced
+
+
+
+[quote][i]The four seasons come and go, and all creatures thrive and grow.[/i][/quote]
+
+
+
+Version 0.5
+
+Features
+- Added an option to set a severity bias in the game setup. The severity you choose (between 1 and 5) will be the most likely severity, effectively setting the difficulty of the game
+- The settings you choose in the advanced game setup now show when hovering the icon in the beginning of the game as a little confirmation
+
+Balance
+- War weariness effect values are now based on the current era. The later the era, the higher the weariness
+- Severity 6 winter can now occur no matter what severity autumn had. The chances of severity 6 are higher with a higher severity bias
+- Naval units now have no movement (representing water freezing) in a severity 6 winter
+- Lower food yields in winter
+
+
+
+Version 0.4.1
+
+Bugs
+- Fixed an issue where the mod would not initialize when playing Vanilla
+
+
+
+Version 0.4
+
+Misc
+- Improved performance when season changes are made. Especially big maps now run smoother
+
+
+
+Prototype 0.3
+
+Bugs
+- Fixed an issue where save files with older versions of this mod were broken. These 'broken' save files can now be loaded again without issue
+
+
+
+Version 0.3
+
+Features
+- Added Civilopedia entry with all details of the mod
+- Added an option to deactivate the ambient time of day based on the current season in the game setup
+- Added an animation for the ambient time of day. The transitions are now smooth
+
+Balance
+- Unit Experience is now reduced in Seasons with bonuses to Healing and / or Movement
+- The margins with severity probabilities are now equal, making severity 1 or 5 less likely and 2 or 4 more likely
+- A few effect changes, mainly healing and experience changes in autumn and winter because there was bonus experience without any negative unit effects
+
+Misc
+- .modinfo file is now up to date with infos from the recent updates
+
+
+
+Version 0.2
+
+Features
+- Added unit experience as a bonus when attacking. The worse the seasonal unit effects, the more experience
+- Added severity for summer. Severities 1-3 bring bonuses, 5 brings small penalties
+- Seasons can now change from severity 1 to 5 as I removed the +-2 range. High anomalies are unlikelier
+- Added separate movement effects for naval units. They will have lower penalties compared to land units and aircraft
+
+Balance
+- Changed the probability distributions of the new season. Extremes are now more likely
+- A few effects changes, mainly: spring is now less severe for units and can even bring bonuses
+- Slightly smaller time window for season changes
+
+Bugs
+- Fixed an issue where plot yield effects weren't applied to newly founded cities
+
+For modders:
+- Better code structure and overview, mainly how modifiers are applied. Balance changes can now be made by editing a single value and Gameplay + UI adjusts automatically
+- Added text XML files. Feel free to make your own translations of the mod!
+
+
+
+Version 0.1.3
+
+- Fixed an XML related issue that caused the game to crash
+- Updated modinfo file
+
+
+
+Version 0.1.2 - Not in a working state
+
+- Quick fix: food effects in spring were higher than intended
+
+
+
+Version 0.1.1 - Not in a working state
+
+- Minor balance changes regarding effects
+- Small bug fixes where season effects weren't applied as intended
+
+
+
+Version 0.1
+
+- Added animated time of day based on the current season
+
+
+
+Version 0.0.1
+
+- Fixed a bug where the Season Icon isn't in the correct position in the top right panel if other mods that add an icon there (e.g. Cheat Map Editor, Supertimer) are active
+
+
+
+Version 0.0
+
+The mod is in a working state but it needs more testing.

@@ -1,0 +1,15 @@
+<!-- =========================================================================== -->
+<!-- Four_Seasons_UI -->
+<!-- Author: sharpNd -->
+<!-- 2022-05-20 -->
+<!-- Version 0.3 -->
+<!-- =========================================================================== -->
+
+
+<?xml version="1.0" encoding="utf-8"?>
+<Context>
+	<Button Size="29,29" ID="SummerButton" Texture="Icons/Four_Seasons_Summer_Icon.dds" Anchor="C,C" ConsumeMouse="1"/>
+	<Button Size="29,29" ID="AutumnButton" Texture="Icons/Four_Seasons_Autumn_Icon.dds" Anchor="C,C" ConsumeMouse="1"/>
+	<Button Size="29,29" ID="WinterButton" Texture="Icons/Four_Seasons_Winter_Icon.dds" Anchor="C,C" ConsumeMouse="1"/>
+	<Button Size="29,29" ID="SpringButton" Texture="Icons/Four_Seasons_Spring_Icon.dds" Anchor="C,C" ConsumeMouse="1"/>
+</Context>

@@ -1,0 +1,450 @@
+<!-- =========================================================================== -->
+<!-- Four_Seasons_Civilopedia_Text -->
+<!-- Author: sharpNd -->
+<!-- 2022-06-03 -->
+<!-- Version 0.4 -->
+<!-- =========================================================================== -->
+
+
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<LocalizedText>
+    	<!-- English -->
+		<Row Tag="LOC_PEDIA_CONCEPTS_PAGEGROUP_FOUR_SEASONS_NAME" Language="en_US">
+          	<Text>Four Seasons</Text>
+    	</Row>
+
+
+		<Row Tag="LOC_PEDIA_CONCEPTS_PAGE_FOUR_SEASONS_INTRODUCTION_TITLE" Language="en_US">
+			<Text>Introduction</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_CONCEPTS_PAGE_FOUR_SEASONS_INTRODUCTION_CHAPTER_INTRO_PARA_1" Language="en_US">
+			<Text>The Civilopedia entry of Four Seasons is a highly detailed overview of all mechanics and aspects the mod brings into the game.</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_CONCEPTS_PAGE_FOUR_SEASONS_INTRODUCTION_CHAPTER_SUMMARY_TITLE" Language="en_US">
+			<Text>Mod Overview</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_CONCEPTS_PAGE_FOUR_SEASONS_INTRODUCTION_CHAPTER_SUMMARY_PARA_1" Language="en_US">
+			<Text>This mod adds a Season system with Summer, Autumn, Winter, and Spring to the game.</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_CONCEPTS_PAGE_FOUR_SEASONS_INTRODUCTION_CHAPTER_SUMMARY_PARA_2" Language="en_US">
+			<Text>Positive or negative Effects are applied to all Units and Cities on the map depending on the current Season and its randomized Severity. The AI, City-States and Barbarians are naturally affected too.</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_CONCEPTS_PAGE_FOUR_SEASONS_INTRODUCTION_CHAPTER_SUMMARY_PARA_3" Language="en_US">
+			<Text>In addition, the animated time of day changes with the Seasons. This makes the map look dark and cold in Winter and bright and warm in Summer.</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_CONCEPTS_PAGE_FOUR_SEASONS_INTRODUCTION_CHAPTER_SUMMARY_PARA_4" Language="en_US">
+			<Text>My goal with this mod was to make planning of Wars and Food management more important.</Text>
+		</Row>
+
+		<Row Tag="LOC_PEDIA_CONCEPTS_PAGE_FOUR_SEASONS_INTRODUCTION_CHAPTER_INSPIRATION_TITLE" Language="en_US">
+			<Text>Inspiration</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_CONCEPTS_PAGE_FOUR_SEASONS_INTRODUCTION_CHAPTER_INSPIRATION_PARA_1" Language="en_US">
+			<Text>The biggest inspiration for Four Seasons came from Northgard, a Viking themed real time strategy game with a Season system.</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_CONCEPTS_PAGE_FOUR_SEASONS_INTRODUCTION_CHAPTER_INSPIRATION_PARA_2" Language="en_US">
+			<Text>In my very first game, my advisors kept saying that Winter is imminent, suggesting I take precautions. I didn't really bother since my game was going pretty good. Then the Winter came, a particular cold one. Tons of wood was needed to heat houses and food to prevent starvation and disease, but my stored resources did not last long. When it started warming up again, only one in four of my citizens survived.</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_CONCEPTS_PAGE_FOUR_SEASONS_INTRODUCTION_CHAPTER_INSPIRATION_PARA_3" Language="en_US">
+			<Text>Going through this in Northgard and coming back to Civilization VI, the forefront of 4X, I asked myself: why is this kind of Season system not here? The variety it provides to the gameplay is immense, forcing you to change up your playstyle every now and then. With this in mind I took the decision to create the Four Seasons.</Text>
+		</Row>
+
+		<Row Tag="LOC_PEDIA_CONCEPTS_PAGE_FOUR_SEASONS_INTRODUCTION_CHAPTER_CREDIT_TITLE" Language="en_US">
+			<Text>Credits</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_CONCEPTS_PAGE_FOUR_SEASONS_INTRODUCTION_CHAPTER_CREDIT_PARA_1" Language="en_US">
+			<Text>While developing this mod, these people here have helped me on many times and made Four Seasons possible. A big thank you to…</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_CONCEPTS_PAGE_FOUR_SEASONS_INTRODUCTION_CHAPTER_CREDIT_PARA_2" Language="en_US">
+			<Text>[ICON_Bullet]Sukritact for his Civilization VI: Modding Knowledge Base.</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_CONCEPTS_PAGE_FOUR_SEASONS_INTRODUCTION_CHAPTER_CREDIT_PARA_3" Language="en_US">
+			<Text>[ICON_Bullet]ChimpanG for his Civ VI Modding Companion.</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_CONCEPTS_PAGE_FOUR_SEASONS_INTRODUCTION_CHAPTER_CREDIT_PARA_4" Language="en_US">
+			<Text>[ICON_Bullet]Gedemon for his many useful comments on the CivFanatics forums.</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_CONCEPTS_PAGE_FOUR_SEASONS_INTRODUCTION_CHAPTER_CREDIT_PARA_5" Language="en_US">
+			<Text>[ICON_Bullet]DB for providing a detailed overview of all Font Icons and Colors in Civ VI.</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_CONCEPTS_PAGE_FOUR_SEASONS_INTRODUCTION_CHAPTER_CREDIT_PARA_6" Language="en_US">
+			<Text>[ICON_Bullet]bane_ for his Basic Modding Guide for Civ5 and good Civ related coding convention tips.</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_CONCEPTS_PAGE_FOUR_SEASONS_INTRODUCTION_CHAPTER_CREDIT_PARA_7" Language="en_US">
+			<Text>[ICON_Bullet]LeeS for his Civilization 6 Modding Guide and useful comments on CivFanatics.</Text>
+		</Row>
+
+
+		<Row Tag="LOC_PEDIA_CONCEPTS_PAGE_FOUR_SEASONS_EFFECTS_TITLE" Language="en_US">
+			<Text>Effects</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_CONCEPTS_PAGE_FOUR_SEASONS_EFFECTS_CHAPTER_CONTENT_PARA_1" Language="en_US">
+			<Text>Each Season and its Effects have a big impact on the struggle of survival for humans, animals, and plants alike. In Four Seasons, these Effects are applied globally to all Units and Cities, depending on the current Season and its randomized Severity. But not every Effect is changed in a Season, no changes to the game is also possible.</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_CONCEPTS_PAGE_FOUR_SEASONS_EFFECTS_CHAPTER_CONTENT_PARA_2" Language="en_US">
+			<Text>For full  [ICON_List] Lists of Effects that are applied depending on the Season and Severity, take a look at the individual Season chapters on the left.</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_CONCEPTS_PAGE_FOUR_SEASONS_EFFECTS_CHAPTER_CONTENT_PARA_3" Language="en_US">
+			<Text>[ICON_Exclamation] Note that the game always starts in Summer with a Severity of 4 (no Effects).</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_CONCEPTS_PAGE_FOUR_SEASONS_EFFECTS_CHAPTER_CONTENT_PARA_4" Language="en_US">
+			<Text>The Effects that can be applied during the Seasons include:</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_CONCEPTS_PAGE_FOUR_SEASONS_EFFECTS_CHAPTER_CONTENT_PARA_5" Language="en_US">
+			<Text>[ICON_Bullet][ICON_Promotion] Experience: The worse the [ICON_Damaged] Healing and [ICON_Movement] Movement Season Effects, the higher the additional Unit [ICON_Promotion] Experience. Basically, having fought in tough conditions strengthens your Units. This adds a reward for risking your Units when they have penalties.</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_CONCEPTS_PAGE_FOUR_SEASONS_EFFECTS_CHAPTER_CONTENT_PARA_6" Language="en_US">
+			<Text>[ICON_Bullet][ICON_Damaged] Healing per [ICON_Turn] Turn: Low temperatures, more hunger, no shelter, or the opposite. All this can have impact on the [ICON_Damaged] Healing of your Units. In later Eras, having enough Medics or Supply Convoys is essential if you want to keep your Units healthy.</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_CONCEPTS_PAGE_FOUR_SEASONS_EFFECTS_CHAPTER_CONTENT_PARA_7" Language="en_US">
+			<Text>[ICON_Bullet][ICON_Gold] Maintenance: Humans need more nutrition, sleep, and warmer clothes in Winter. Prepare for a hard Season by having enough gold in your treasury to finance the extra needs of your Units.</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_CONCEPTS_PAGE_FOUR_SEASONS_EFFECTS_CHAPTER_CONTENT_PARA_8" Language="en_US">
+			<Text>[ICON_Bullet][ICON_Movement] Movement for Land Units and Aircraft: Mud, floods and ice can all result in a terrain being harder to traverse or planes having a harder time landing, lowering the [ICON_Movement] Movement.</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_CONCEPTS_PAGE_FOUR_SEASONS_EFFECTS_CHAPTER_CONTENT_PARA_9" Language="en_US">
+			<Text>[ICON_Bullet][ICON_Movement] Movement for Naval Units: Ships are a bit slower in low temperatures because the water is denser, but the overall impact of Seasons on them is lower, that is why there are separate [ICON_Movement] Movement Effects for Naval Units.</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_CONCEPTS_PAGE_FOUR_SEASONS_EFFECTS_CHAPTER_CONTENT_PARA_10" Language="en_US">
+			<Text>[ICON_Bullet][ICON_Food] Food per Tile: For most groceries, harvests are in Summer and Autumn, which can result in hunger in Winter and Spring. It can be beneficial to change the focus of your Cities to [ICON_Food] Food occasionally.</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_CONCEPTS_PAGE_FOUR_SEASONS_EFFECTS_CHAPTER_CONTENT_PARA_11" Language="en_US">
+			<Text>[ICON_Bullet][ICON_Production] Production per Tile: A lot of energy and resources need to be used for heating buildings when its colder. This makes the overall [ICON_Production] Production output a bit lower in tough Seasons.</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_CONCEPTS_PAGE_FOUR_SEASONS_EFFECTS_CHAPTER_CONTENT_PARA_12" Language="en_US">
+			<Text>[ICON_Bullet][ICON_Ability] War Weariness per Battle: The last thing your population wants to think about in freezing and starving conditions is War. In severe Seasons, the amount of [ICON_Ability] War Weariness Points for every battle your Units take is increased.</Text>
+		</Row>
+
+
+		<Row Tag="LOC_PEDIA_CONCEPTS_PAGE_FOUR_SEASONS_SEVERITY_TITLE" Language="en_US">
+			<Text>Severities</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_CONCEPTS_PAGE_FOUR_SEASONS_SEVERITY_CHAPTER_CONTENT_PARA_1" Language="en_US">
+			<Text>Just like the real world, the Season intensity can dither a lot. Four Seasons emulates these seasonal anomalies by assigning a Severity value to each Season at its beginning. This value determines how mild or severe the Effects are. The Severity is in a 1 to 5 range in Summer, Autumn, and Spring and between 1 and 6 in Winter. The higher the value, the worse the Effects.</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_CONCEPTS_PAGE_FOUR_SEASONS_SEVERITY_CHAPTER_CONTENT_PARA_2" Language="en_US">
+			<Text>In order to increase unpredictability and variety in the gameplay, the Severity is randomized. Overall, the Severity is drawn towards the mid, so a value of 3 is the most likely with extremes of 1 or 5 being the least likely.</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_CONCEPTS_PAGE_FOUR_SEASONS_SEVERITY_CHAPTER_CONTENT_PARA_3" Language="en_US">
+			<Text>The Severity probability of the new Season is dependent on the Severity of the last Season. The probability distributions of the new Severity look as follows (values in %, ordered as Severity 1  2  3  4  5):</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_CONCEPTS_PAGE_FOUR_SEASONS_SEVERITY_CHAPTER_CONTENT_PARA_4" Language="en_US">
+			<Text>[ICON_Bullet]Last Severity 1:    20    40    20    10    10</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_CONCEPTS_PAGE_FOUR_SEASONS_SEVERITY_CHAPTER_CONTENT_PARA_5" Language="en_US">
+			<Text>[ICON_Bullet]Last Severity 2:    20    30    30    10    10</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_CONCEPTS_PAGE_FOUR_SEASONS_SEVERITY_CHAPTER_CONTENT_PARA_6" Language="en_US">
+			<Text>[ICON_Bullet]Last Severity 3:    10    20    40    20    10</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_CONCEPTS_PAGE_FOUR_SEASONS_SEVERITY_CHAPTER_CONTENT_PARA_7" Language="en_US">
+			<Text>[ICON_Bullet]Last Severity 4:    10    10    30    30    20</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_CONCEPTS_PAGE_FOUR_SEASONS_SEVERITY_CHAPTER_CONTENT_PARA_8" Language="en_US">
+			<Text>[ICON_Bullet]Last Severity 5:    10    10    20    40    20</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_CONCEPTS_PAGE_FOUR_SEASONS_SEVERITY_CHAPTER_CONTENT_PARA_9" Language="en_US">
+			<Text>Additionally, only if Autumn had a Severity of 5, the coming Winter can have a Severity of 6. With this the probabilities for the coming Winter are changing to:</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_CONCEPTS_PAGE_FOUR_SEASONS_SEVERITY_CHAPTER_CONTENT_PARA_10" Language="en_US">
+			<Text>[ICON_Bullet]Last Severity 5:    10    10    20    40    10    10</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_CONCEPTS_PAGE_FOUR_SEASONS_SEVERITY_CHAPTER_CONTENT_PARA_11" Language="en_US">
+			<Text>In the unlikely case of a Winter actually having a Severity of 6, the Spring acts as if the last Season had a Severity of 5 when it comes to the probability distribution.</Text>
+		</Row>
+
+
+		<Row Tag="LOC_PEDIA_CONCEPTS_PAGE_FOUR_SEASONS_SEASONLENGTH_TITLE" Language="en_US">
+			<Text>Season Lengths</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_CONCEPTS_PAGE_FOUR_SEASONS_SEASONLENGTH_CHAPTER_CONTENT_PARA_1" Language="en_US">
+			<Text>You have the option to set a Season Length between 5 and 25 [ICON_Turn] Turns in the advanced options of the game setup. Note that your Season Length is only used as an approximation. A randomized Season Offset can delay or speed up a season change (see the chapter below for more information). For gameplay and balancing reasons, it is recommended to choose a Season Length that correlates with your chosen Game Speed:</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_CONCEPTS_PAGE_FOUR_SEASONS_SEASONLENGTH_CHAPTER_CONTENT_PARA_2" Language="en_US">
+			<Text>[ICON_Bullet]5 to 9 for Online (200% speed)</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_CONCEPTS_PAGE_FOUR_SEASONS_SEASONLENGTH_CHAPTER_CONTENT_PARA_3" Language="en_US">
+			<Text>[ICON_Bullet]7 to 12 for Quick (150% speed)</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_CONCEPTS_PAGE_FOUR_SEASONS_SEASONLENGTH_CHAPTER_CONTENT_PARA_4" Language="en_US">
+			<Text>[ICON_Bullet]10 to 16 for Standard (normal speed)</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_CONCEPTS_PAGE_FOUR_SEASONS_SEASONLENGTH_CHAPTER_CONTENT_PARA_5" Language="en_US">
+			<Text>[ICON_Bullet]13 to 20 for Epic (66% speed)</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_CONCEPTS_PAGE_FOUR_SEASONS_SEASONLENGTH_CHAPTER_CONTENT_PARA_6" Language="en_US">
+			<Text>[ICON_Bullet]15 to 25 for Marathon (33% speed)</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_CONCEPTS_PAGE_FOUR_SEASONS_SEASONLENGTH_CHAPTER_CONTENT_PARA_7" Language="en_US">
+			<Text>The Season Length also influences the AI in its decision making. A severe Season can lower the changes of the AI preparing for war. Then, if a mild Season comes up, the AI prepares for war again, but needs enough time to do so. Therefore, the Season Length should be at the upper end if you prefer a bit more aggressiveness and at the lower end if you want your rival Civilizations to be a little more passive. But overall, the influence on the AI is only minor.</Text>
+		</Row>
+
+
+		<Row Tag="LOC_PEDIA_CONCEPTS_PAGE_FOUR_SEASONS_OFFSETS_TITLE" Language="en_US">
+			<Text>Offsets</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_CONCEPTS_PAGE_FOUR_SEASONS_OFFSETS_CHAPTER_CONTENT_PARA_1" Language="en_US">
+			<Text>Not only can the Severity of a Season vary, but also, its starting and ending point. A randomized Offset implements these variances and can delay or speed up the beginning of a Season. This also has an impact on the Length of a Season.</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_CONCEPTS_PAGE_FOUR_SEASONS_OFFSETS_CHAPTER_CONTENT_PARA_2" Language="en_US">
+			<Text>Say that the current game has a Season Length of 10 [ICON_Turn] Turns, and its start [ICON_Turn] Turn is 1. This would put the Season beginnings at [ICON_Turn] Turn 11, 21, 31 and so on. Here, the randomized Offset comes into play. The range in which the Season Offset operates is 20% of the Season Length, in this case 0.2 * 10 = 2 (this value is always topped off, for example 0.2 * 9 = 1.8 results in 1).</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_CONCEPTS_PAGE_FOUR_SEASONS_OFFSETS_CHAPTER_CONTENT_PARA_3" Language="en_US">
+			<Text>Subtract and add this value to the original Season change [ICON_Turn] Turns (11, 21, 31 and so on) and you have your time frame for Season beginnings: 11 – 2 = 9 is the earliest possible start Turn, 11 + 2 = 13 is the last possible start Turn.</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_CONCEPTS_PAGE_FOUR_SEASONS_OFFSETS_CHAPTER_CONTENT_PARA_4" Language="en_US">
+			<Text>Note that the probabilities for Season Offsets are equally distributed, unlike the Severity of a Season. Applying this to our example means that the Season change [ICON_Turn] Turns 9, 10, 11, 12 and 13 all have the same probability.</Text>
+		</Row>
+
+
+		<Row Tag="LOC_PEDIA_CONCEPTS_PAGE_FOUR_SEASONS_VISUALS_TITLE" Language="en_US">
+			<Text>Visuals</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_CONCEPTS_PAGE_FOUR_SEASONS_VISUALS_CHAPTER_CONTENT_PARA_1" Language="en_US">
+			<Text>It was important to create a feeling of authenticity for every Season. That is why the animated time of day changes, if enabled by the player in the game setup, with the Seasons: every time a [ICON_Turn] Turn begins, the time of day skips a few minutes or hours, based on the Season Length.</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_CONCEPTS_PAGE_FOUR_SEASONS_VISUALS_CHAPTER_CONTENT_PARA_2" Language="en_US">
+			<Text>[ICON_Exclamation] Deactivate 'Animated Time of Day' in the options to make the Visuals work properly. If that option is enabled, the time of day changes automatically and then this mod possibly turns back the time. This is not game breaking but can be annoying when looking at the map.</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_CONCEPTS_PAGE_FOUR_SEASONS_VISUALS_CHAPTER_CONTENT_PARA_3" Language="en_US">
+			<Text>The Visuals have an impact on the color and lighting of the map based on the current Season:</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_CONCEPTS_PAGE_FOUR_SEASONS_VISUALS_CHAPTER_CONTENT_PARA_4" Language="en_US">
+			<Text>[ICON_Bullet]Summer is from 11:00 to 17:00 with the sun zenith making the map bright and warm.</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_CONCEPTS_PAGE_FOUR_SEASONS_VISUALS_CHAPTER_CONTENT_PARA_5" Language="en_US">
+			<Text>[ICON_Bullet]Autumn is from 17:00 to 23:00 with the sunset slowly darkening and cooling the map.</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_CONCEPTS_PAGE_FOUR_SEASONS_VISUALS_CHAPTER_CONTENT_PARA_6" Language="en_US">
+			<Text>[ICON_Bullet]Winter is from 23:00 to 05:00 with the night making the map dark and cool.</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_CONCEPTS_PAGE_FOUR_SEASONS_VISUALS_CHAPTER_CONTENT_PARA_7" Language="en_US">
+			<Text>[ICON_Bullet]Spring is from 05:00 to 11:00 with the sunrise slowly brightening and warming up the map again.</Text>
+		</Row>
+
+
+		<Row Tag="LOC_PEDIA_CONCEPTS_PAGE_FOUR_SEASONS_SUMMER_TITLE" Language="en_US">
+			<Text>Summer Effects</Text>
+	  	</Row>
+		<Row Tag="LOC_PEDIA_CONCEPTS_PAGE_FOUR_SEASONS_SUMMER_CHAPTER_BASE_PARA_1" Language="en_US">
+			<Text>[ICON_List] List of Effects that are applied during Summer:</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_CONCEPTS_PAGE_FOUR_SEASONS_SUMMER_CHAPTER_SEVERITY1_TITLE" Language="en_US">
+			<Text>Severity 1</Text>
+	  	</Row>
+		<Row Tag="LOC_PEDIA_CONCEPTS_PAGE_FOUR_SEASONS_SUMMER_CHAPTER_SEVERITY1_PARA_1" Language="en_US">
+			<Text>Units[NEWLINE]-60% [ICON_Promotion] Experience[NEWLINE]+10 [ICON_Damaged] Healing per [ICON_Turn] Turn[NEWLINE]+1 [ICON_Movement] Movement for Land Units and Aircraft</Text>
+	  	</Row>
+		<Row Tag="LOC_PEDIA_CONCEPTS_PAGE_FOUR_SEASONS_SUMMER_CHAPTER_SEVERITY1_PARA_2" Language="en_US">
+			<Text>Cities[NEWLINE]+1 [ICON_Food] Food per Tile[NEWLINE]+1 [ICON_Production] Production per Tile</Text>
+	  	</Row>
+		<Row Tag="LOC_PEDIA_CONCEPTS_PAGE_FOUR_SEASONS_SUMMER_CHAPTER_SEVERITY2_TITLE" Language="en_US">
+			<Text>Severity 2</Text>
+	  	</Row>
+		<Row Tag="LOC_PEDIA_CONCEPTS_PAGE_FOUR_SEASONS_SUMMER_CHAPTER_SEVERITY2_PARA_1" Language="en_US">
+			<Text>Units[NEWLINE]-40% [ICON_Promotion] Experience[NEWLINE]+5 [ICON_Damaged] Healing per [ICON_Turn] Turn[NEWLINE]+1 [ICON_Movement] Movement for Land Units and Aircraft</Text>
+	  	</Row>
+		<Row Tag="LOC_PEDIA_CONCEPTS_PAGE_FOUR_SEASONS_SUMMER_CHAPTER_SEVERITY2_PARA_2" Language="en_US">
+			<Text>Cities[NEWLINE]+1 [ICON_Food] Food per Tile</Text>
+	  	</Row>
+		<Row Tag="LOC_PEDIA_CONCEPTS_PAGE_FOUR_SEASONS_SUMMER_CHAPTER_SEVERITY3_TITLE" Language="en_US">
+			<Text>Severity 3</Text>
+	  	</Row>
+		<Row Tag="LOC_PEDIA_CONCEPTS_PAGE_FOUR_SEASONS_SUMMER_CHAPTER_SEVERITY3_PARA_1" Language="en_US">
+			<Text>Units[NEWLINE]-20% [ICON_Promotion] Experience[NEWLINE]+5 [ICON_Damaged] Healing per [ICON_Turn] Turn</Text>
+	  	</Row>
+		<Row Tag="LOC_PEDIA_CONCEPTS_PAGE_FOUR_SEASONS_SUMMER_CHAPTER_SEVERITY4_TITLE" Language="en_US">
+			<Text>Severity 4</Text>
+	  	</Row>
+		<Row Tag="LOC_PEDIA_CONCEPTS_PAGE_FOUR_SEASONS_SUMMER_CHAPTER_SEVERITY4_PARA_1" Language="en_US">
+			<Text>No Effects</Text>
+	  	</Row>
+		<Row Tag="LOC_PEDIA_CONCEPTS_PAGE_FOUR_SEASONS_SUMMER_CHAPTER_SEVERITY5_TITLE" Language="en_US">
+			<Text>Severity 5</Text>
+	  	</Row>
+		<Row Tag="LOC_PEDIA_CONCEPTS_PAGE_FOUR_SEASONS_SUMMER_CHAPTER_SEVERITY5_PARA_1" Language="en_US">
+			<Text>Units[NEWLINE]+1 [ICON_Gold] Maintenance</Text>
+	  	</Row>
+		<Row Tag="LOC_PEDIA_CONCEPTS_PAGE_FOUR_SEASONS_SUMMER_CHAPTER_SEVERITY5_PARA_2" Language="en_US">
+			<Text>Cities[NEWLINE]-1 [ICON_Food] Food per Tile</Text>
+	  	</Row>
+
+
+		<Row Tag="LOC_PEDIA_CONCEPTS_PAGE_FOUR_SEASONS_AUTUMN_TITLE" Language="en_US">
+			<Text>Autumn Effects</Text>
+	  	</Row>
+		<Row Tag="LOC_PEDIA_CONCEPTS_PAGE_FOUR_SEASONS_AUTUMN_CHAPTER_BASE_PARA_1" Language="en_US">
+			<Text>[ICON_List] List of Effects that are applied during Autumn:</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_CONCEPTS_PAGE_FOUR_SEASONS_AUTUMN_CHAPTER_SEVERITY1_TITLE" Language="en_US">
+			<Text>Severity 1</Text>
+	  	</Row>
+		<Row Tag="LOC_PEDIA_CONCEPTS_PAGE_FOUR_SEASONS_AUTUMN_CHAPTER_SEVERITY1_PARA_1" Language="en_US">
+			<Text>Cities[NEWLINE]+1 [ICON_Food] Food per Tile</Text>
+	  	</Row>
+		<Row Tag="LOC_PEDIA_CONCEPTS_PAGE_FOUR_SEASONS_AUTUMN_CHAPTER_SEVERITY2_TITLE" Language="en_US">
+			<Text>Severity 2</Text>
+	  	</Row>
+		<Row Tag="LOC_PEDIA_CONCEPTS_PAGE_FOUR_SEASONS_AUTUMN_CHAPTER_SEVERITY2_PARA_1" Language="en_US">
+			<Text>No Effects</Text>
+	  	</Row>
+		<Row Tag="LOC_PEDIA_CONCEPTS_PAGE_FOUR_SEASONS_AUTUMN_CHAPTER_SEVERITY3_TITLE" Language="en_US">
+			<Text>Severity 3</Text>
+	  	</Row>
+		<Row Tag="LOC_PEDIA_CONCEPTS_PAGE_FOUR_SEASONS_AUTUMN_CHAPTER_SEVERITY3_PARA_1" Language="en_US">
+			<Text>Units[NEWLINE]+20% [ICON_Promotion] Experience[NEWLINE]-5 [ICON_Damaged] Healing per [ICON_Turn] Turn[NEWLINE]+1 [ICON_Gold] Maintenance</Text>
+	  	</Row>
+		<Row Tag="LOC_PEDIA_CONCEPTS_PAGE_FOUR_SEASONS_AUTUMN_CHAPTER_SEVERITY4_TITLE" Language="en_US">
+			<Text>Severity 4</Text>
+	  	</Row>
+		<Row Tag="LOC_PEDIA_CONCEPTS_PAGE_FOUR_SEASONS_AUTUMN_CHAPTER_SEVERITY4_PARA_1" Language="en_US">
+			<Text>Units[NEWLINE]+40% [ICON_Promotion] Experience[NEWLINE]-5 [ICON_Damaged] Healing per [ICON_Turn] Turn[NEWLINE]+1 [ICON_Gold] Maintenance[NEWLINE]-1 [ICON_Movement] Movement for Land Units and Aircraft</Text>
+	  	</Row>
+		<Row Tag="LOC_PEDIA_CONCEPTS_PAGE_FOUR_SEASONS_AUTUMN_CHAPTER_SEVERITY4_PARA_2" Language="en_US">
+			<Text>Cities[NEWLINE]-1 [ICON_Food] Food per Tile</Text>
+	  	</Row>
+		<Row Tag="LOC_PEDIA_CONCEPTS_PAGE_FOUR_SEASONS_AUTUMN_CHAPTER_SEVERITY4_PARA_3" Language="en_US">
+			<Text>Wars[NEWLINE]+16 [ICON_Ability] War Weariness per Battle</Text>
+	  	</Row>
+		<Row Tag="LOC_PEDIA_CONCEPTS_PAGE_FOUR_SEASONS_AUTUMN_CHAPTER_SEVERITY5_TITLE" Language="en_US">
+			<Text>Severity 5</Text>
+	  	</Row>
+		<Row Tag="LOC_PEDIA_CONCEPTS_PAGE_FOUR_SEASONS_AUTUMN_CHAPTER_SEVERITY5_PARA_1" Language="en_US">
+			<Text>Units[NEWLINE]+40% [ICON_Promotion] Experience[NEWLINE]-5 [ICON_Damaged] Healing per [ICON_Turn] Turn[NEWLINE]+2 [ICON_Gold] Maintenance[NEWLINE]-1 [ICON_Movement] Movement for Land Units and Aircraft</Text>
+	  	</Row>
+		<Row Tag="LOC_PEDIA_CONCEPTS_PAGE_FOUR_SEASONS_AUTUMN_CHAPTER_SEVERITY5_PARA_2" Language="en_US">
+			<Text>Cities[NEWLINE]-1 [ICON_Food] Food per Tile[NEWLINE]-1 [ICON_Production] Production per Tile</Text>
+	  	</Row>
+		<Row Tag="LOC_PEDIA_CONCEPTS_PAGE_FOUR_SEASONS_AUTUMN_CHAPTER_SEVERITY5_PARA_3" Language="en_US">
+			<Text>Wars[NEWLINE]+16 [ICON_Ability] War Weariness per Battle</Text>
+	  	</Row>
+
+
+		<Row Tag="LOC_PEDIA_CONCEPTS_PAGE_FOUR_SEASONS_WINTER_TITLE" Language="en_US">
+			<Text>Winter Effects</Text>
+	  	</Row>
+		<Row Tag="LOC_PEDIA_CONCEPTS_PAGE_FOUR_SEASONS_WINTER_CHAPTER_BASE_PARA_1" Language="en_US">
+			<Text>[ICON_List] List of Effects that are applied during Winter:</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_CONCEPTS_PAGE_FOUR_SEASONS_WINTER_CHAPTER_SEVERITY1_TITLE" Language="en_US">
+			<Text>Severity 1</Text>
+	  	</Row>
+		<Row Tag="LOC_PEDIA_CONCEPTS_PAGE_FOUR_SEASONS_WINTER_CHAPTER_SEVERITY1_PARA_1" Language="en_US">
+			<Text>Units[NEWLINE]+20% [ICON_Promotion] Experience[NEWLINE]-5 [ICON_Damaged] Healing per [ICON_Turn] Turn[NEWLINE]+1 [ICON_Gold] Maintenance</Text>
+	  	</Row>
+		<Row Tag="LOC_PEDIA_CONCEPTS_PAGE_FOUR_SEASONS_WINTER_CHAPTER_SEVERITY1_PARA_2" Language="en_US">
+			<Text>Cities[NEWLINE]-1 [ICON_Food] Food per Tile</Text>
+	  	</Row>
+		<Row Tag="LOC_PEDIA_CONCEPTS_PAGE_FOUR_SEASONS_WINTER_CHAPTER_SEVERITY2_TITLE" Language="en_US">
+			<Text>Severity 2</Text>
+	  	</Row>
+		<Row Tag="LOC_PEDIA_CONCEPTS_PAGE_FOUR_SEASONS_WINTER_CHAPTER_SEVERITY2_PARA_1" Language="en_US">
+			<Text>Units[NEWLINE]+40% [ICON_Promotion] Experience[NEWLINE]-5 [ICON_Damaged] Healing per [ICON_Turn] Turn[NEWLINE]+1 [ICON_Gold] Maintenance[NEWLINE]-1 [ICON_Movement] Movement for Land Units and Aircraft</Text>
+	  	</Row>
+		<Row Tag="LOC_PEDIA_CONCEPTS_PAGE_FOUR_SEASONS_WINTER_CHAPTER_SEVERITY2_PARA_2" Language="en_US">
+			<Text>Cities[NEWLINE]-1 [ICON_Food] Food per Tile</Text>
+	  	</Row>
+		<Row Tag="LOC_PEDIA_CONCEPTS_PAGE_FOUR_SEASONS_WINTER_CHAPTER_SEVERITY2_PARA_3" Language="en_US">
+			<Text>Wars[NEWLINE]+16 [ICON_Ability] War Weariness per Battle</Text>
+	  	</Row>
+		<Row Tag="LOC_PEDIA_CONCEPTS_PAGE_FOUR_SEASONS_WINTER_CHAPTER_SEVERITY3_TITLE" Language="en_US">
+			<Text>Severity 3</Text>
+	  	</Row>
+		<Row Tag="LOC_PEDIA_CONCEPTS_PAGE_FOUR_SEASONS_WINTER_CHAPTER_SEVERITY3_PARA_1" Language="en_US">
+			<Text>Units[NEWLINE]+40% [ICON_Promotion] Experience[NEWLINE]-5 [ICON_Damaged] Healing per [ICON_Turn] Turn[NEWLINE]+2 [ICON_Gold] Maintenance[NEWLINE]-1 [ICON_Movement] Movement for Land Units and Aircraft</Text>
+	  	</Row>
+		<Row Tag="LOC_PEDIA_CONCEPTS_PAGE_FOUR_SEASONS_WINTER_CHAPTER_SEVERITY3_PARA_2" Language="en_US">
+			<Text>Cities[NEWLINE]-1 [ICON_Food] Food per Tile[NEWLINE]-1 [ICON_Production] Production per Tile</Text>
+	  	</Row>
+		<Row Tag="LOC_PEDIA_CONCEPTS_PAGE_FOUR_SEASONS_WINTER_CHAPTER_SEVERITY3_PARA_3" Language="en_US">
+			<Text>Wars[NEWLINE]+16 [ICON_Ability] War Weariness per Battle</Text>
+	  	</Row>
+		<Row Tag="LOC_PEDIA_CONCEPTS_PAGE_FOUR_SEASONS_WINTER_CHAPTER_SEVERITY4_TITLE" Language="en_US">
+			<Text>Severity 4</Text>
+	  	</Row>
+		<Row Tag="LOC_PEDIA_CONCEPTS_PAGE_FOUR_SEASONS_WINTER_CHAPTER_SEVERITY4_PARA_1" Language="en_US">
+			<Text>Units[NEWLINE]+60% [ICON_Promotion] Experience[NEWLINE]-10 [ICON_Damaged] Healing per [ICON_Turn] Turn[NEWLINE]+3 [ICON_Gold] Maintenance[NEWLINE]-1 [ICON_Movement] Movement for Land Units and Aircraft[NEWLINE]-1 [ICON_Movement] Movement for Naval Units</Text>
+	  	</Row>
+		<Row Tag="LOC_PEDIA_CONCEPTS_PAGE_FOUR_SEASONS_WINTER_CHAPTER_SEVERITY4_PARA_2" Language="en_US">
+			<Text>Cities[NEWLINE]-2 [ICON_Food] Food per Tile[NEWLINE]-1 [ICON_Production] Production per Tile</Text>
+	  	</Row>
+		<Row Tag="LOC_PEDIA_CONCEPTS_PAGE_FOUR_SEASONS_WINTER_CHAPTER_SEVERITY4_PARA_3" Language="en_US">
+			<Text>Wars[NEWLINE]+32 [ICON_Ability] War Weariness per Battle</Text>
+	  	</Row>
+		<Row Tag="LOC_PEDIA_CONCEPTS_PAGE_FOUR_SEASONS_WINTER_CHAPTER_SEVERITY5_TITLE" Language="en_US">
+			<Text>Severity 5</Text>
+	  	</Row>
+		<Row Tag="LOC_PEDIA_CONCEPTS_PAGE_FOUR_SEASONS_WINTER_CHAPTER_SEVERITY5_PARA_1" Language="en_US">
+			<Text>Units[NEWLINE]+80% [ICON_Promotion] Experience[NEWLINE]-10 [ICON_Damaged] Healing per [ICON_Turn] Turn[NEWLINE]+4 [ICON_Gold] Maintenance[NEWLINE]-2 [ICON_Movement] Movement for Land Units and Aircraft[NEWLINE]-1 [ICON_Movement] Movement for Naval Units</Text>
+	  	</Row>
+		<Row Tag="LOC_PEDIA_CONCEPTS_PAGE_FOUR_SEASONS_WINTER_CHAPTER_SEVERITY5_PARA_2" Language="en_US">
+			<Text>Cities[NEWLINE]-2 [ICON_Food] Food per Tile[NEWLINE]-1 [ICON_Production] Production per Tile</Text>
+	  	</Row>
+		<Row Tag="LOC_PEDIA_CONCEPTS_PAGE_FOUR_SEASONS_WINTER_CHAPTER_SEVERITY5_PARA_3" Language="en_US">
+			<Text>Wars[NEWLINE]+32 [ICON_Ability] War Weariness per Battle</Text>
+	  	</Row>
+		<Row Tag="LOC_PEDIA_CONCEPTS_PAGE_FOUR_SEASONS_WINTER_CHAPTER_SEVERITY6_TITLE" Language="en_US">
+			<Text>Severity 6</Text>
+	  	</Row>
+		<Row Tag="LOC_PEDIA_CONCEPTS_PAGE_FOUR_SEASONS_WINTER_CHAPTER_SEVERITY6_PARA_1" Language="en_US">
+			<Text>Units[NEWLINE]+100% [ICON_Promotion] Experience[NEWLINE]-15 [ICON_Damaged] Healing per [ICON_Turn] Turn[NEWLINE]+5 [ICON_Gold] Maintenance[NEWLINE]-2 [ICON_Movement] Movement for Land Units and Aircraft[NEWLINE]-2 [ICON_Movement] Movement for Naval Units</Text>
+	  	</Row>
+		<Row Tag="LOC_PEDIA_CONCEPTS_PAGE_FOUR_SEASONS_WINTER_CHAPTER_SEVERITY6_PARA_2" Language="en_US">
+			<Text>Cities[NEWLINE]-3 [ICON_Food] Food per Tile[NEWLINE]-2 [ICON_Production] Production per Tile</Text>
+	  	</Row>
+		<Row Tag="LOC_PEDIA_CONCEPTS_PAGE_FOUR_SEASONS_WINTER_CHAPTER_SEVERITY6_PARA_3" Language="en_US">
+			<Text>Wars[NEWLINE]+48 [ICON_Ability] War Weariness per Battle</Text>
+	  	</Row>
+
+
+		<Row Tag="LOC_PEDIA_CONCEPTS_PAGE_FOUR_SEASONS_SPRING_TITLE" Language="en_US">
+			<Text>Spring Effects</Text>
+	  	</Row>
+		<Row Tag="LOC_PEDIA_CONCEPTS_PAGE_FOUR_SEASONS_SPRING_CHAPTER_BASE_PARA_1" Language="en_US">
+			<Text>[ICON_List] List of Effects that are applied during Spring:</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_CONCEPTS_PAGE_FOUR_SEASONS_SPRING_CHAPTER_SEVERITY1_TITLE" Language="en_US">
+			<Text>Severity 1</Text>
+	  	</Row>
+		<Row Tag="LOC_PEDIA_CONCEPTS_PAGE_FOUR_SEASONS_SPRING_CHAPTER_SEVERITY1_PARA_1" Language="en_US">
+			<Text>Units[NEWLINE]-20% [ICON_Promotion] Experience[NEWLINE]+5 [ICON_Damaged] Healing per [ICON_Turn] Turn</Text>
+	  	</Row>
+		<Row Tag="LOC_PEDIA_CONCEPTS_PAGE_FOUR_SEASONS_SPRING_CHAPTER_SEVERITY2_TITLE" Language="en_US">
+			<Text>Severity 2</Text>
+	  	</Row>
+		<Row Tag="LOC_PEDIA_CONCEPTS_PAGE_FOUR_SEASONS_SPRING_CHAPTER_SEVERITY2_PARA_1" Language="en_US">
+			<Text>No Effects</Text>
+	  	</Row>
+		<Row Tag="LOC_PEDIA_CONCEPTS_PAGE_FOUR_SEASONS_SPRING_CHAPTER_SEVERITY3_TITLE" Language="en_US">
+			<Text>Severity 3</Text>
+	  	</Row>
+		<Row Tag="LOC_PEDIA_CONCEPTS_PAGE_FOUR_SEASONS_SPRING_CHAPTER_SEVERITY3_PARA_1" Language="en_US">
+			<Text>Units[NEWLINE]+1 [ICON_Gold] Maintenance</Text>
+	  	</Row>
+		<Row Tag="LOC_PEDIA_CONCEPTS_PAGE_FOUR_SEASONS_SPRING_CHAPTER_SEVERITY3_PARA_2" Language="en_US">
+			<Text>Cities[NEWLINE]-1 [ICON_Food] Food per Tile</Text>
+	  	</Row>
+		<Row Tag="LOC_PEDIA_CONCEPTS_PAGE_FOUR_SEASONS_SPRING_CHAPTER_SEVERITY4_TITLE" Language="en_US">
+			<Text>Severity 4</Text>
+	  	</Row>
+		<Row Tag="LOC_PEDIA_CONCEPTS_PAGE_FOUR_SEASONS_SPRING_CHAPTER_SEVERITY4_PARA_1" Language="en_US">
+			<Text>Units[NEWLINE]+20% [ICON_Promotion] Experience[NEWLINE]-5 [ICON_Damaged] Healing per [ICON_Turn] Turn[NEWLINE]+1 [ICON_Gold] Maintenance</Text>
+	  	</Row>
+		<Row Tag="LOC_PEDIA_CONCEPTS_PAGE_FOUR_SEASONS_SPRING_CHAPTER_SEVERITY4_PARA_2" Language="en_US">
+			<Text>Cities[NEWLINE]-1 [ICON_Food] Food per Tile</Text>
+	  	</Row>
+		<Row Tag="LOC_PEDIA_CONCEPTS_PAGE_FOUR_SEASONS_SPRING_CHAPTER_SEVERITY5_TITLE" Language="en_US">
+			<Text>Severity 5</Text>
+	  	</Row>
+		<Row Tag="LOC_PEDIA_CONCEPTS_PAGE_FOUR_SEASONS_SPRING_CHAPTER_SEVERITY5_PARA_1" Language="en_US">
+			<Text>Units[NEWLINE]+40% [ICON_Promotion] Experience[NEWLINE]-5 [ICON_Damaged] Healing per [ICON_Turn] Turn[NEWLINE]+2 [ICON_Gold] Maintenance[NEWLINE]-1 [ICON_Movement] Movement for Land Units and Aircraft</Text>
+	  	</Row>
+		<Row Tag="LOC_PEDIA_CONCEPTS_PAGE_FOUR_SEASONS_SPRING_CHAPTER_SEVERITY5_PARA_2" Language="en_US">
+			<Text>Cities[NEWLINE]-1 [ICON_Food] Food per Tile</Text>
+	  	</Row>
+		<Row Tag="LOC_PEDIA_CONCEPTS_PAGE_FOUR_SEASONS_SPRING_CHAPTER_SEVERITY5_PARA_3" Language="en_US">
+			<Text>Wars[NEWLINE]+16 [ICON_Ability] War Weariness per Battle</Text>
+	  	</Row>
+	</LocalizedText>
+</GameData>
