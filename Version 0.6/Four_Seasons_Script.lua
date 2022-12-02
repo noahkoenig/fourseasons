@@ -17,7 +17,7 @@
 -- s = string
 -- t = table
 -- u = unknown (not in use here)
--- _ = unused function variables
+-- _ = unused function parameters
 
 -- Suffixes
 -- _UI = values that are set in the Gameplay Script and used in the UI script
@@ -32,6 +32,13 @@ if GameConfiguration.GetValue("iSeverityBias") == nil then
 	kSeverityBias = 3;
 else
 	kSeverityBias = GameConfiguration.GetValue("iSeverityBias");
+end
+-- this is for everyone who saved a game in earlier versions and loads it up in V0.6 or later
+local kEnableSeverity6;
+if GameConfiguration.GetValue("bEnableSeverity6") == nil then
+	kEnableSeverity6 = false;
+else
+	kEnableSeverity6 = GameConfiguration.GetValue("bEnableSeverity6");
 end
 
 -- Keep this value between [0, 0.5[
@@ -245,7 +252,7 @@ end
 function GetNewSeverity(sSeason, iSeverity)
 	local tProbabilities = {};
 	-- the probability for severity 6 in winter is always "taken away" from severity 5
-	if sSeason == "WINTER" then
+	if kEnableSeverity6 and sSeason == "WINTER" then
 		--	kSeverityBias	    1						  2						    3					 	  4				 	   		5
 		if iSeverity == 1 then
 			tProbabilities = { {50, 20, 10, 10,  9,  1}, {30, 30, 20, 10,  8,  2}, {20, 40, 20, 10,  8,  2}, {20, 20, 20, 20, 18,  2}, {10, 20, 30, 30,  7,  3} };

@@ -24,6 +24,10 @@
 	</DomainRanges>
 
 	<Parameters>
-		<Replace ParameterId="bTimeOfDayBasedOnSeason" Name="LOC_FOUR_SEASONS_ANIMATE_TIME_OF_DAY" Description="LOC_FOUR_SEASONS_ANIMATE_TIME_OF_DAY_DESCRIPTION" Domain="bool" DefaultValue="1" ConfigurationGroup="Game" ConfigurationId="bTimeOfDayBasedOnSeason" GroupId="GameOptions" SortIndex="45"/>
+		<Replace ParameterId="bEnableSeverity6" Name="LOC_FOUR_SEASONS_ENABLE_SEVERITY_6" Description="LOC_FOUR_SEASONS_ENABLE_SEVERITY_6_DESCRIPTION" Domain="bool" DefaultValue="0" ConfigurationGroup="Game" ConfigurationId="bEnableSeverity6" GroupId="GameOptions" SortIndex="46"/>
+	</Parameters>
+
+	<Parameters>
+		<Replace ParameterId="bTimeOfDayBasedOnSeason" Name="LOC_FOUR_SEASONS_ANIMATE_TIME_OF_DAY" Description="LOC_FOUR_SEASONS_ANIMATE_TIME_OF_DAY_DESCRIPTION" Domain="bool" DefaultValue="1" ConfigurationGroup="Game" ConfigurationId="bTimeOfDayBasedOnSeason" GroupId="GameOptions" SortIndex="46"/>
 	</Parameters>
 </GameInfo>

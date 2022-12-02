@@ -1,12 +1,12 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Mod id="b6f3ae28-ffac-401b-a91b-6e253f0c7355" version="0.2">
+<Mod id="b6f3ae28-ffac-401b-a91b-6e253f0c7355" version="0.6">
 	<Properties>
 		<Name>[COLOR:ResProductionLabelCS]Four Seasons[ENDCOLOR]</Name>
 		<Description>This mod adds a season system with [color:ModStatusYellow]Summer[ENDCOLOR], [COLOR_Civ6Red]Autumn[ENDCOLOR], [COLOR_FLOAT_SCIENCE]Winter[ENDCOLOR] and [COLOR_Civ6Green]Spring[ENDCOLOR] to the game.[NEWLINE][NEWLINE]Negative or positive effects are applied globally to Units and Cities depending on the current Season and its randomized Severity. AI is naturally affected too.[NEWLINE][NEWLINE]The colors of the map change with the Seasons: dark and cold in Winter, bright and warm in Summer.[NEWLINE][NEWLINE]With Four Seasons, planning of Wars and Food management is more important.[NEWLINE][NEWLINE]Details of this mod are among Concepts in the Civilopedia.</Description>
 		<Created>1641215189</Created>
 		<Teaser>Season system with changing effects on Units and Cities.</Teaser>
 		<Authors>sharpNd</Authors>
-		<AffectsSavedGames>0</AffectsSavedGames>
+		<AffectsSavedGames>1</AffectsSavedGames>
 		<CompatibleVersions>1.2,2.0</CompatibleVersions>
 	</Properties>
 	<FrontEndActions>

@@ -17,6 +17,7 @@
 -- s = string
 -- t = table
 -- u = unknown
+-- _ = unused function parameters (not in use here)
 
 -- Suffixes
 -- _UI = values that are set in the Gameplay script and used in the UI script
@@ -25,7 +26,7 @@
 
 -- ===========================================================================
 local kSeasonLength = GameConfiguration.GetValue("iSeasonLength");
--- this is for everyone who saved a game in V0.2 and loads it up in V0.3 or later, because kChangTime didn't exist and needs a value other than nil
+-- this is for everyone who saved a game in earlier versions and loads it up in V0.3 or later, because kChangTime didn't exist and needs a value other than nil
 local kChangeTime;
 if GameConfiguration.GetValue("bTimeOfDayBasedOnSeason") == nil then
 	kChangeTime = true;

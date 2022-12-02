@@ -22,6 +22,12 @@
 		<Row Tag="LOC_FOUR_SEASONS_SEVERITY_BIAS_DESCRIPTION" Language="en_US">
 			<Text>From the Four Seasons Mod.[NEWLINE][NEWLINE]Sets the most probable Severity. The higher the value, the worse the negative effects, basically setting the difficulty. 3 is recommended for balance reasons.</Text>
 		</Row>
+		<Row Tag="LOC_FOUR_SEASONS_ENABLE_SEVERITY_6" Language="en_US">
+			<Text>Enable Severity 6</Text>
+		</Row>
+		<Row Tag="LOC_FOUR_SEASONS_ENABLE_SEVERITY_6_DESCRIPTION" Language="en_US">
+			<Text>From the Four Seasons Mod.[NEWLINE][NEWLINE]If enabled, Winter can have a Severity of 6. Disabled is recommended as Severity 6 can take a lot of dynamic and fun out of the game.</Text>
+		</Row>
 		<Row Tag="LOC_FOUR_SEASONS_ANIMATE_TIME_OF_DAY" Language="en_US">
 			<Text>Time of Day based on Season</Text>
 		</Row>
