@@ -121,13 +121,13 @@
 			<Text>Severities</Text>
 		</Row>
 		<Row Tag="LOC_PEDIA_CONCEPTS_PAGE_FOUR_SEASONS_SEVERITY_CHAPTER_CONTENT_PARA_1" Language="en_US">
-			<Text>Just like the real world, the Season intensity can dither a lot. Four Seasons emulates these seasonal anomalies by assigning a Severity value to each Season at its beginning. This value determines how mild or severe the Effects are. The Severity is in a 1 to 5 range in Summer, Autumn, and Spring and between 1 and 6 in Winter. The higher the value, the worse the Effects.</Text>
+			<Text>Just like the real world, the Season intensity can dither a lot. Four Seasons emulates these seasonal anomalies by assigning a Severity value to each Season at its beginning. This value determines how mild or severe the Effects are. The Severity is in a 1 to 5 range but can also be 6 in Winter if enabled by you in the advanced options of the game setup. The higher the value, the worse the Effects.</Text>
 		</Row>
 		<Row Tag="LOC_PEDIA_CONCEPTS_PAGE_FOUR_SEASONS_SEVERITY_CHAPTER_CONTENT_PARA_2" Language="en_US">
 			<Text>In order to increase unpredictability and variety in the gameplay, the Severity is randomized. The Severity probabilities of the Seasons are dependent on the Severity Bias that you chose in the Game Setup. Your value sets the severity that is most likely to occur, basically setting the difficulty of the game.</Text>
 		</Row>
 		<Row Tag="LOC_PEDIA_CONCEPTS_PAGE_FOUR_SEASONS_SEVERITY_CHAPTER_CONTENT_PARA_3" Language="en_US">
-			<Text>A Winter with Severity 6 can always occur, though it is likelier if the last Season had a high Severity and if the Severity Bias is high. On average, Severity 6 occurs in about 3% (Bias 1) to 9% (Bias 5) of all Winters.</Text>
+			<Text>If enabled by you, a Winter with Severity 6 can always occur, though it is likelier if the last Season had a high Severity and if the Severity Bias is high. On average, Severity 6 occurs in about 3% (Bias 1) to 9% (Bias 5) of all Winters.</Text>
 		</Row>
 
 
