@@ -1,8 +1,8 @@
 -- ===========================================================================
 -- Four_Seasons_UI
 -- Author: sharpNd
--- 2022-07-23
--- Version 0.5
+-- 2022-12-03
+-- Version 0.5.1
 -- ===========================================================================
 
 
@@ -17,7 +17,7 @@
 -- s = string
 -- t = table
 -- u = unknown
--- _ = unused function parameters (not in use here)
+-- _ = unused parameters, keys or values (not in use here)
 
 -- Suffixes
 -- _UI = values that are set in the Gameplay script and used in the UI script

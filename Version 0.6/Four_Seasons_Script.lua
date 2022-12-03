@@ -1,8 +1,8 @@
 -- ===========================================================================
 -- Four_Seasons_Script
 -- Author: sharpNd
--- 2022-07-23
--- Version 0.5
+-- 2022-12-03
+-- Version 0.5.1
 -- ===========================================================================
 
 
@@ -17,7 +17,7 @@
 -- s = string
 -- t = table
 -- u = unknown (not in use here)
--- _ = unused function parameters
+-- _ = unused parameters, keys or values
 
 -- Suffixes
 -- _UI = values that are set in the Gameplay Script and used in the UI script
@@ -81,7 +81,7 @@ local kMaintenanceEffects_UI = { {  0,   0,   0,   0,   1 }, {  0,   0,   1,   1
 local kMovementEffects_UI =	   { {  1,   1,   0,   0,   0 }, {  0,   0,   0,  -1,  -1 }, {  0,  -1,  -1,  -1,  -2,  -2 }, {  0,   0,   0,   0,  -1 } };
 local kSeaMovementEffects_UI = { {  0,   0,   0,   0,   0 }, {  0,   0,   0,   0,   0 }, {  0,   0,   0,  -1,  -2,-999 }, {  0,   0,   0,   0,   0 } };
 -- CITIES
-local kFoodEffects_UI =		   { {  1,   1,   0,   0,  -1 }, {  1,   0,   0,  -1,  -1 }, { -1,  -1,  -2,  -2,  -2,  -3 }, {  0,   0,  -1,  -1,  -1 } };
+local kFoodEffects_UI =		   { {  1,   1,   0,   0,  -1 }, {  1,   0,   0,  -1,  -1 }, { -1,  -1,  -2,  -2,  -3,  -4 }, {  0,   0,  -1,  -1,  -1 } };
 local kProductionEffects_UI =  { {  1,   0,   0,   0,   0 }, {  0,   0,   0,   0,  -1 }, {  0,   0,  -1,  -1,  -1,  -2 }, {  0,   0,   0,   0,   0 } };
 -- WARS
 local kWearinessEffects_UI =   { {  0,   0,   0,   0,   0 }, {  0,   0,   0,  16,  16 }, {  0,  16,  16,  32,  32,  48 }, {  0,   0,   0,   0,  16 } };
@@ -368,7 +368,7 @@ function AttachModifiers(iSeverity, sSeason, bUndo)
 	local iSeasonIndex = GetSeasonIndex(sSeason);
 	local iOverallFactor = GetOverallFactor(bUndo);
 	local pPlayers = Game.GetPlayers();
-	-- TODO
+
 	for _, pPlayer in pairs(pPlayers) do
 		-- UNITS
 		-- For optimization. Attaching modifiers has an impact on performance, so amount of modifiers attached is minimized
@@ -394,7 +394,7 @@ function AttachModifiers(iSeverity, sSeason, bUndo)
 		-- For optimization. Cycling through every city costs performance
 		if kFoodEffects_UI[iSeasonIndex][iSeverity] ~= 0 or kProductionEffects_UI[iSeasonIndex][iSeverity] ~= 0 then
 			local pPlayerCities = pPlayer:GetCities();
-			for _, pCity in pPlayerCities:Members() do -- TODO _
+			for _, pCity in pPlayerCities:Members() do
 				if kFoodEffects_UI[iSeasonIndex][iSeverity] ~= 0 then
 					pCity:AttachModifierByID("FOUR_SEASONS_CITY_PLOT_YIELDS_ADJUST_FOOD_YIELD_BY_" .. tostring(kFoodEffects_UI[iSeasonIndex][iSeverity] * iOverallFactor));
 				end
