@@ -12,7 +12,8 @@ TODO
   5 forest fires
   6 hurricanes
   7 tornadoes
-
+- North South Differences? Is it the same Intensity across the globe or can it differ? It will work for cities with the modifiers but probably not units
+  Note that we need to track ALL units on the map and make changes to them if they change e.g. from the North to the South of the Map
 
 KNOWN ISSUES
 - Plot yields are sometimes not shown in City Details view after they were changed
@@ -21,6 +22,20 @@ KNOWN ISSUES
 
 
 [quote][i]The four seasons come and go, and all creatures thrive and grow.[/i][/quote]
+
+
+
+Version 0.6
+
+Misc
+- Renamed Severity to Intensity
+
+
+
+Version 0.5.1
+
+Features
+- Added an option to disable Severity 6 Winters in the game setup
 
 
 

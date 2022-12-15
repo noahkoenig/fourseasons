@@ -1,0 +1,38 @@
+<!-- =========================================================================== -->
+<!-- Four_Seasons_Config_Text -->
+<!-- Author: sharpNd -->
+<!-- 2022-12-03 -->
+<!-- Version 0.5.1 -->
+<!-- =========================================================================== -->
+
+
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<LocalizedText>
+		<!-- English -->
+		<Row Tag="LOC_FOUR_SEASONS_SEASON_LENGTH" Language="en_US">
+			<Text>Season Length</Text>
+		</Row>
+		<Row Tag="LOC_FOUR_SEASONS_SEASON_LENGTH_DESCRIPTION" Language="en_US">
+			<Text>From the Four Seasons Mod.[NEWLINE][NEWLINE]Sets the Length of a Season in [ICON_Turn]Turns. Recommended by Game Speed:[NEWLINE][NEWLINE][ICON_Bullet]5 to 9 for Online[NEWLINE][ICON_Bullet]7 to 12 for Quick[NEWLINE][ICON_Bullet]10 to 16 for Standard[NEWLINE][ICON_Bullet]13 to 20 for Epic[NEWLINE][ICON_Bullet]15 to 25 for Marathon</Text>
+		</Row>
+		<Row Tag="LOC_FOUR_SEASONS_INTENSITY_BIAS" Language="en_US">
+			<Text>Intensity Bias</Text>
+		</Row>
+		<Row Tag="LOC_FOUR_SEASONS_INTENSITY_BIAS_DESCRIPTION" Language="en_US">
+			<Text>From the Four Seasons Mod.[NEWLINE][NEWLINE]Sets the most probable Intensity. The higher the value, the worse the negative effects, basically setting the difficulty. 3 is recommended for balance reasons.</Text>
+		</Row>
+		<Row Tag="LOC_FOUR_SEASONS_ENABLE_INTENSITY_6" Language="en_US">
+			<Text>Enable Intensity 6</Text>
+		</Row>
+		<Row Tag="LOC_FOUR_SEASONS_ENABLE_INTENSITY_6_DESCRIPTION" Language="en_US">
+			<Text>From the Four Seasons Mod.[NEWLINE][NEWLINE]If enabled, Winter can have an Intensity of 6. Disabled is recommended as Intensity 6 can take a lot of dynamic and fun out of the game.</Text>
+		</Row>
+		<Row Tag="LOC_FOUR_SEASONS_ANIMATE_TIME_OF_DAY" Language="en_US">
+			<Text>Time of Day based on Season</Text>
+		</Row>
+		<Row Tag="LOC_FOUR_SEASONS_ANIMATE_TIME_OF_DAY_DESCRIPTION" Language="en_US">
+			<Text>From the Four Seasons Mod.[NEWLINE][NEWLINE]If enabled, the mod changes the Animated Time of Day based on the current Season. Enabled is recommended to improve the immersion of the Season.[NEWLINE][NEWLINE]Once the game started, deactivate 'Animated Time of Day' in the options to make this work properly.</Text>
+		</Row>
+	</LocalizedText>
+</GameData>
